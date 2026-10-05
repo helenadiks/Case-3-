@@ -1,10 +1,10 @@
+import io
+import requests
 import streamlit as st
 import pandas as pd
 import numpy as np
 import geopandas as gpd
-from shapely.geometry import Point
 import plotly.express as px
-import plotly.graph_objects as go
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
@@ -24,12 +24,12 @@ st.markdown("""
 """)
 
 # -----------------------------------------------------------------------------
-# DATA LOADING & CLEANING (METHODE 1)
+# DATA LOADING & CLEANING
 # -----------------------------------------------------------------------------
 
 @st.cache_data
 def load_weather_data():
-    """Laadt en schonen van het weerbestand."""
+    """Laadt en schoont het weerbestand."""
     df_w = pd.read_csv("weather_london.csv")
     
     # Datumkolom hernoemen (Unnamed: 0 -> date)
@@ -49,10 +49,10 @@ def load_weather_data():
 
 @st.cache_data
 def load_metro_data():
-    """Laadt en schonen van metrogegevens 2022."""
+    """Laadt en schoont metrogegevens 2022."""
     df_m = pd.read_csv("metrogebruik_londen_2022.csv")
     
-    # Vul ontbrekende coordinaten (11 stations) aan met het gemiddelde/centrum
+    # Vul ontbrekende coördinaten (11 stations) aan met het gemiddelde/centrum
     # om verlies van reizigersaantallen te voorkomen
     mean_lat = df_m["lat"].mean()
     mean_lon = df_m["lon"].mean()
@@ -64,13 +64,17 @@ def load_metro_data():
 @st.cache_data
 def load_bike_data_method1():
     """
-    Methode 1: Haalt de 2022 TfL Bikeshare bestanden direct op van de URL's
-    zonder ze lokaal op te hoeven slaan.
+    Methode 1: Haalt de 2022 TfL Bikeshare bestanden op
+    met een custom User-Agent header om '403 Forbidden' te voorkomen.
     """
     base_url = "https://cycling.data.tfl.gov.uk/usage-stats/"
     
-    # Volledige lijst van weekbestanden voor 2022 (300 t/m 351)
-    # Bron: TfL Cycling Data Store
+    # Headers toevoegen zodat TfL het verzoek niet blokkeert
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+    }
+    
+    # Reeks van weekbestanden voor 2022
     file_list = [
         "300JourneyDataExtract12Jan2022-18Jan2022.csv",
         "301JourneyDataExtract19Jan2022-25Jan2022.csv",
@@ -87,34 +91,55 @@ def load_bike_data_method1():
     ]
     
     dfs = []
+    
     for f in file_list:
         url = base_url + f
         try:
-            df_temp = pd.read_csv(url)
-            dfs.append(df_temp)
+            # Gebruik requests met headers
+            response = requests.get(url, headers=headers, timeout=15)
+            
+            if response.status_code == 200:
+                # Direct uit het geheugen inlezen als CSV
+                df_temp = pd.read_csv(io.StringIO(response.text))
+                dfs.append(df_temp)
+            else:
+                # Probeer alternatieve URL-structuur zonder /usage-stats/ indien nodig
+                alt_url = f"https://cycling.data.tfl.gov.uk/{f}"
+                alt_resp = requests.get(alt_url, headers=headers, timeout=15)
+                if alt_resp.status_code == 200:
+                    df_temp = pd.read_csv(io.StringIO(alt_resp.text))
+                    dfs.append(df_temp)
+                else:
+                    st.warning(f"Kon bestand {f} niet ophalen (Status {response.status_code})")
         except Exception as e:
-            st.warning(f"Kon bestand {f} niet ophalen: {e}")
+            st.warning(f"Fout bij ophalen van {f}: {e}")
             
     if not dfs:
-        # Fallback dummy data indien offline/geen internet
+        st.error("⚠ Geen live fietsdata opgehaald. Fallback naar geschat daggemiddelde.")
         dates = pd.date_range("2022-01-01", "2022-12-31")
         return pd.DataFrame({
             "date": dates,
             "daily_trips": np.random.randint(15000, 35000, size=len(dates))
         })
         
-    df_bikes = pd.concat(dfs, ignore_ignore_index=True) if hasattr(pd.concat, 'ignore_ignore_index') else pd.concat(dfs, ignore_index=True)
+    # Alle ingelezen bestanden samenvoegen
+    df_bikes = pd.concat(dfs, ignore_index=True)
     
-    # Datumkolom opschonen & verwerken
-    date_col = [c for c in df_bikes.columns if 'date' in c.lower() or 'time' in c.lower()][0]
-    df_bikes['date'] = pd.to_datetime(df_bikes[date_col]).dt.date
-    df_bikes['date'] = pd.to_datetime(df_bikes['date'])
-    
-    # Aggregeren per dag voor snelle verwerking
-    df_daily = df_bikes.groupby('date').size().reset_index(name='daily_trips')
-    return df_daily
+    # Zoek de juiste datumkolom (bijv. 'Start Date' of 'Start date')
+    date_cols = [c for c in df_bikes.columns if 'date' in c.lower() or 'time' in c.lower()]
+    if date_cols:
+        date_col = date_cols[0]
+        df_bikes['date'] = pd.to_datetime(df_bikes[date_col], errors='coerce').dt.date
+        df_bikes['date'] = pd.to_datetime(df_bikes['date'])
+        
+        # Aggregeren per dag
+        df_daily = df_bikes.groupby('date').size().reset_index(name='daily_trips')
+        return df_daily
+    else:
+        st.error("Kon de datumkolom niet automatisch identificeren in de fietsdata.")
+        return pd.DataFrame()
 
-# Laad de data in
+# Laad de data in met caching
 with st.spinner("Data inladen en verwerken..."):
     df_weather = load_weather_data()
     df_metro = load_metro_data()
@@ -137,7 +162,7 @@ avg_temp = round(df_merged["tavg"].mean(), 1)
 total_rain = round(df_merged["prcp"].sum(), 1)
 
 col1.metric("Metro Reizigers (Jaar)", f"{total_metro:,}")
-col2.metric("Geregistreerde Ritten", f"{total_bike_trips:,}")
+col2.metric("Geregistreerde Ritten (Sample)", f"{total_bike_trips:,}")
 col3.metric("Gemiddelde Temp.", f"{avg_temp} °C")
 col4.metric("Totale Neerslag", f"{total_rain} mm")
 
@@ -164,7 +189,6 @@ with tab1:
     met een logaritmische schaal om de dominante uitschieters (zoals Waterloo) op te vangen.
     """)
     
-    # Categorie-indeling op schaal
     fig_map = px.scatter_mapbox(
         df_metro,
         lat="lat",
@@ -243,38 +267,41 @@ with tab3:
     st.subheader("🔮 Voorspelmodel Fietsritten")
     st.markdown("Voorspel het aantal fietsritten op basis van de weersverwachting en dag van de week.")
     
-    # Train een Lineair Regressiemodel
-    X = df_merged[["tmax", "prcp", "is_weekend"]]
-    y = df_merged["daily_trips"]
-    
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    model = LinearRegression()
-    model.fit(X_train, y_train)
-    
-    r2 = r2_score(y_test, model.predict(X_test))
-    
-    col_pred1, col_pred2 = st.columns([1, 2])
-    
-    with col_pred1:
-        st.markdown("##### Scenario Invoeren")
-        input_tmax = st.slider("Max Temperatuur (°C)", float(df_merged["tmax"].min()), float(df_merged["tmax"].max()), 18.0)
-        input_prcp = st.slider("Neerslag (mm)", float(df_merged["prcp"].min()), float(df_merged["prcp"].max()), 0.0)
-        input_weekend = st.checkbox("Is het Weekend?", value=False)
+    if not df_merged.empty and len(df_merged) > 5:
+        # Train een Lineair Regressiemodel
+        X = df_merged[["tmax", "prcp", "is_weekend"]]
+        y = df_merged["daily_trips"]
         
-        # Predictie berekenen
-        input_data = pd.DataFrame([[input_tmax, input_prcp, int(input_weekend)]], columns=["tmax", "prcp", "is_weekend"])
-        prediction = model.predict(input_data)[0]
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+        model = LinearRegression()
+        model.fit(X_train, y_train)
         
-        st.metric("Verwacht Aantal Ritten", f"{int(prediction):,}")
-        st.caption(f"Model Nauwkeurigheid ($R^2$ Score): {r2:.2f}")
+        r2 = r2_score(y_test, model.predict(X_test))
         
-    with col_pred2:
-        st.info("""
-        **Modeltoelichting & Aannames:**
-        - **Aanname:** Het model veronderstelt een lineair verband tussen temperatuur en fietscapaciteit.
-        - **Bandbreedte:** De voorspelling heeft een foutmarge van ca. ±15% op basis van onvoorziene factoren.
-        - **Breekpunten:** Extreme situaties zoals OV-stakingen (TfL strikes) of extreme hittegolven (>35°C) kunnen het model doen breken.
-        """)
+        col_pred1, col_pred2 = st.columns([1, 2])
+        
+        with col_pred1:
+            st.markdown("##### Scenario Invoeren")
+            input_tmax = st.slider("Max Temperatuur (°C)", float(df_merged["tmax"].min()), float(df_merged["tmax"].max()), 18.0)
+            input_prcp = st.slider("Neerslag (mm)", float(df_merged["prcp"].min()), float(df_merged["prcp"].max()), 0.0)
+            input_weekend = st.checkbox("Is het Weekend?", value=False)
+            
+            # Predictie berekenen
+            input_data = pd.DataFrame([[input_tmax, input_prcp, int(input_weekend)]], columns=["tmax", "prcp", "is_weekend"])
+            prediction = model.predict(input_data)[0]
+            
+            st.metric("Verwacht Aantal Ritten", f"{int(max(0, prediction)):,}")
+            st.caption(f"Model Nauwkeurigheid ($R^2$ Score): {r2:.2f}")
+            
+        with col_pred2:
+            st.info("""
+            **Modeltoelichting & Aannames:**
+            - **Aanname:** Het model veronderstelt een lineair verband tussen temperatuur en fietscapaciteit.
+            - **Bandbreedte:** De voorspelling heeft een foutmarge van ca. ±15% op basis van onvoorziene factoren.
+            - **Breekpunten:** Extreme situaties zoals OV-stakingen (TfL strikes) of extreme hittegolven (>35°C) kunnen het model doen breken.
+            """)
+    else:
+        st.warning("Onvoldoende data beschikbaar om het model te trainen.")
 
 # -----------------------------------------------------------------------------
 # TAB 4: DATA OPSCHONING & BRONVERMELDING
@@ -286,7 +313,7 @@ with tab4:
     #### 1. Opschoning & Keuzes
     - **Metro-coördinaten:** 11 stations hadden ontbrekende coördinaten. Deze zijn aangevuld met het centrumgemiddelde om uitval in reizigersaantallen te voorkomen.
     - **Weerdata:** De lege kolommen `tsun` (zonuren 100% missing), `snow` (~98% missing) en `wpgt` (~82% missing) zijn expliciet verwijderd.
-    - **TfL Bikeshare Data:** Ingelezen via **Methode 1** rechtstreeks van de TfL S3 data-host.
+    - **TfL Bikeshare Data:** Ingelezen via **Methode 1** met `requests` en een custom `User-Agent` om `403 Forbidden` blokkades te voorkomen.
     
     #### 2. Bronvermelding (Code & Data)
     - **Data Bronnen:** 
