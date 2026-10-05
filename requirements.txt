@@ -4,3 +4,5 @@ geopandas
 shapely
 scikit-learn
 plotly
+requests
+statsmodels
