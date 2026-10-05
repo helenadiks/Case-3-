@@ -1,7 +1,6 @@
 streamlit
 pandas
 numpy
+plotly==5.22.0
 geopandas
-shapely
-plotly
 scikit-learn
