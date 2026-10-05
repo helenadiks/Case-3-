@@ -1,7 +1,6 @@
 streamlit
 pandas
 geopandas
-plotly
-scikit-learn
 shapely
-openpyxl
+scikit-learn
+plotly
