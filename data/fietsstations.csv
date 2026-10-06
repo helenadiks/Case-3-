@@ -1,0 +1,785 @@
+station,starts,eindes,lat,lon,docks,metro_station,metro_type,afstand_m
+"Hyde Park Corner, Hyde Park",85851,85891,51.503117,-0.15352,36.0,Hyde Park Corner,LU,94.0
+"Albert Gate, Hyde Park",53428,53246,51.502953,-0.158456,34.0,Knightsbridge,LU,234.0
+"Waterloo Station 3, Waterloo",50872,51764,51.503791,-0.112824,35.0,Waterloo LU,LU,78.0
+"Hop Exchange, The Borough",50148,65996,51.504627,-0.091773,56.0,London Bridge LU,LU,399.0
+"Wormwood Street, Liverpool Street",49620,50056,51.516154,-0.082422,15.0,Liverpool Street LU,LU,161.0
+"Waterloo Station 1, Waterloo",48181,45898,51.504027,-0.113864,36.0,Waterloo LU,LU,106.0
+"Wellington Arch, Hyde Park",47831,47879,51.50274,-0.149569,36.0,Hyde Park Corner,LU,202.0
+"Duke Street Hill, London Bridge",46880,49675,51.506304,-0.087262,21.0,London Bridge LU,LU,201.0
+"Black Lion Gate, Kensington Gardens",46323,46505,51.509908,-0.187842,24.0,Queensway,LU,67.0
+"Westminster Pier, Westminster",43905,44987,51.501513,-0.123823,27.0,Westminster,LU,83.0
+"Brushfield Street, Liverpool Street",43031,49868,51.518908,-0.079249,34.0,Liverpool Street LU,LU,254.0
+"Aquatic Centre, Queen Elizabeth Olympic Park",42412,42996,51.541482,-0.010437,30.0,Stratford International DLR,DLR,387.0
+"Serpentine Car Park, Hyde Park",41669,41601,51.505014,-0.17306,18.0,Lancaster Gate,LU,782.0
+"Bethnal Green Road, Shoreditch",41333,41737,51.523648,-0.074754,38.0,Shoreditch High Street,LO,163.0
+"Little Argyll Street, West End",40170,43583,51.514499,-0.141423,21.0,Oxford Circus,LU,90.0
+"Tooley Street, Bermondsey",39170,41140,51.503493,-0.07962,27.0,London Bridge LU,LU,461.0
+"Exhibition Road, Knightsbridge",39061,41997,51.499917,-0.174554,20.0,South Kensington,LU,652.0
+"Tower Gardens , Tower",38746,39546,51.509506,-0.075459,24.0,Tower Gateway,DLR,122.0
+"Soho Square , Soho",38490,44812,51.515631,-0.132328,57.0,Tottenham Court Road,LU,106.0
+"Park Lane , Hyde Park",37616,37821,51.510017,-0.157275,28.0,Marble Arch,LU,448.0
+"Regent's Row , Haggerston",37087,36767,51.535678,-0.062546,24.0,Cambridge Heath,LO,546.0
+"Storey's Gate, Westminster",36391,39372,51.500703,-0.129698,21.0,St. James's Park,LU,314.0
+"Triangle Car Park, Hyde Park",36056,35301,51.506451,-0.170279,27.0,Lancaster Gate,LU,702.0
+"Bayswater Road, Hyde Park",35714,31972,51.511933,-0.174411,27.0,Lancaster Gate,LU,71.0
+"Islington Green, Angel",35113,34544,51.536384,-0.102757,21.0,Angel,LU,427.0
+"St. James's Square, St. James's",34460,46509,51.507424,-0.134621,40.0,Piccadilly Circus,LU,260.0
+"Green Park Station, Mayfair",34213,37920,51.506613,-0.142844,28.0,Green Park,LU,30.0
+"Whitehall Place, Strand",33925,40678,51.506543,-0.123179,46.0,Embankment,LU,102.0
+"Allington Street, Victoria",33627,33840,51.496863,-0.142943,28.0,Victoria LU,LU,83.0
+"Craven Street, Strand",33577,34730,51.508103,-0.126021,23.0,Charing Cross LU,LU,89.0
+"Great Tower Street, Monument",33332,34910,51.510484,-0.082989,24.0,Tower Hill,LU,435.0
+"Battersea Power Station, Battersea Park",33013,32833,51.483507,-0.147714,27.0,Battersea Power Station,LU,596.0
+"Queen Street 2, Bank",32664,37073,51.511246,-0.093051,36.0,Mansion House,LU,123.0
+"Cheapside, Bank",32243,35396,51.51397,-0.09294,43.0,Mansion House,LU,226.0
+"Vauxhall Cross, Vauxhall",32060,32197,51.485917,-0.124469,17.0,Vauxhall LU,LU,49.0
+"London Fields, Hackney Central",32059,31988,51.54119,-0.058826,21.0,London Fields,LO,94.0
+"Warren Street Station, Euston",31645,31619,51.524438,-0.138019,26.0,Warren Street,LU,24.0
+"Palace Gate, Kensington Gardens",30914,30969,51.502042,-0.1844,13.0,High Street Kensington,LU,517.0
+"Waterloo Station 2, Waterloo",30824,23411,51.503919,-0.113426,55.0,Waterloo LU,LU,87.0
+"Limerston Street, West Chelsea",30787,30844,51.485587,-0.18119,18.0,Gloucester Road,LU,1004.0
+"Fulham Broadway, Walham Green",30698,31112,51.479932,-0.194116,26.0,Fulham Broadway,LU,105.0
+"Moor Street, Soho",30364,31486,51.513527,-0.13011,16.0,Leicester Square,LU,280.0
+"Shoreditch High Street, Shoreditch",30355,30556,51.526377,-0.07813,41.0,Shoreditch High Street,LO,332.0
+"Queen's Gate, Kensington Gardens",30075,30202,51.501715,-0.179854,21.0,High Street Kensington,LU,818.0
+"Old Quebec Street, Marylebone",29461,29650,51.514577,-0.158264,16.0,Marble Arch,LU,71.0
+"Derry Street, Kensington",29180,29534,51.501364,-0.191462,18.0,High Street Kensington,LU,71.0
+"Queensway, Kensington Gardens",29168,28133,51.51031,-0.187402,17.0,Queensway,LU,15.0
+"Kennington Lane Rail Bridge, Vauxhall",28852,29091,51.486343,-0.122492,31.0,Vauxhall LU,LU,115.0
+"Eagle Wharf Road, Hoxton",28805,25266,51.53356,-0.09315,45.0,Angel,LU,862.0
+"Royal London Hospital, Whitechapel",28469,28791,51.518675,-0.06111,42.0,Whitechapel,LU,155.0
+"Lambeth Palace Road, Waterloo",28456,28678,51.500089,-0.116628,35.0,Lambeth North,LU,353.0
+"Old Street Station, St. Luke's",28225,28327,51.525615,-0.088532,34.0,Old Street,LU,63.0
+"South Kensington Station, South Kensington",28081,28401,51.494412,-0.173881,15.0,South Kensington,LU,38.0
+"Baylis Road, Waterloo",28046,28872,51.501444,-0.110699,22.0,Waterloo LU,LU,259.0
+"Clapham Common Station, Clapham Common",28037,27919,51.461388,-0.139221,21.0,Clapham Common,LU,78.0
+"Strata, Elephant & Castle",27980,27975,51.493146,-0.099828,41.0,Elephant & Castle LU,LU,307.0
+"Queen Street 1, Bank",27691,35509,51.511553,-0.09294,22.0,Mansion House,LU,106.0
+"Panton Street, West End",27646,28792,51.509639,-0.13151,21.0,Piccadilly Circus,LU,152.0
+"Crosswall, Tower",27643,29126,51.511594,-0.077121,34.0,Tower Hill,LU,137.0
+"Gloucester Road Station, South Kensington",27487,27601,51.494185,-0.18267,15.0,Gloucester Road,LU,70.0
+"Braham Street, Aldgate",27262,27436,51.514233,-0.073537,34.0,Aldgate East,LU,101.0
+"Wellington Street , Strand",26855,27457,51.511756,-0.119643,24.0,Covent Garden,LU,355.0
+"Wardour Street, Soho",26639,27231,51.512515,-0.133201,16.0,Piccadilly Circus,LU,315.0
+"Drury Lane, Covent Garden",26168,27238,51.51477,-0.122219,27.0,Covent Garden,LU,274.0
+"Ethelburga Estate, Battersea Park",26037,25918,51.477292,-0.164786,30.0,Imperial Wharf,LO,1277.0
+"Finsbury Circus, Liverpool Street",26030,29056,51.517075,-0.086685,33.0,Moorgate,LU,221.0
+"Sloane Avenue, Knightsbridge",25542,26055,51.493184,-0.167894,27.0,South Kensington,LU,429.0
+"Gas Holders, Battersea Park",25320,25402,51.477966,-0.147857,26.0,Battersea Power Station,LU,440.0
+"Holborn Circus, Holborn",25308,34421,51.51795,-0.108657,40.0,Chancery Lane,LU,237.0
+"Cleveland Way, Stepney",25117,24834,51.520893,-0.051394,36.0,Stepney Green,LU,303.0
+"Sedding Street, Sloane Square",24806,27119,51.49313,-0.156876,27.0,Sloane Square,LU,90.0
+"Blackfriars Station, St. Paul's",24767,25427,51.511934,-0.103078,35.0,Blackfriars LU,LU,39.0
+"William IV Street, Strand",24588,28299,51.509462,-0.124749,26.0,Charing Cross LU,LU,123.0
+"Eccleston Place, Victoria",23953,24251,51.49395,-0.147624,19.0,Victoria LU,LU,376.0
+"Newgate Street , St. Paul's",23858,28565,51.515768,-0.099894,35.0,St. Paul's,LU,191.0
+"Nesham Street, Wapping",23837,23630,51.507131,-0.06691,16.0,Tower Gateway,DLR,633.0
+"Green Street, Mayfair",23804,24037,51.512276,-0.157436,19.0,Marble Arch,LU,204.0
+"Queen's Circus, Battersea Park",23797,23719,51.477619,-0.149551,28.0,Battersea Power Station,LU,563.0
+"Good's Way, King's Cross",23738,23814,51.534667,-0.125078,27.0,King's Cross St. Pancras,LU,491.0
+"Finsbury Leisure Centre, St. Luke's",23451,22399,51.526008,-0.096317,20.0,Old Street,LU,603.0
+"Bermondsey Street, Bermondsey",23446,22936,51.497855,-0.081608,24.0,London Bridge LU,LU,817.0
+"Pitfield Street North,Hoxton",23139,21840,51.53558,-0.08249,28.0,Haggerston,LO,589.0
+"Somerset House, Strand",23113,25092,51.509943,-0.117619,41.0,Temple,LU,296.0
+"Battersea Park Road, Nine Elms",23057,23097,51.479501,-0.14177,27.0,Battersea Power Station,LU,16.0
+"Notting Hill Gate Station, Notting Hill",23015,20121,51.509353,-0.196422,30.0,Notting Hill Gate,LU,35.0
+"Warwick Row, Westminster",23006,23463,51.497998,-0.14296,21.0,Victoria LU,LU,187.0
+"Dunston Road , Haggerston",22999,21964,51.536585,-0.075885,43.0,Haggerston,LO,234.0
+"Bonner Gate, Victoria Park",22997,22420,51.53341,-0.049591,21.0,Cambridge Heath,LO,548.0
+"Leman Street, Aldgate",22973,22664,51.512363,-0.069542,37.0,Aldgate East,LU,386.0
+"Maplin Street, Mile End",22911,22621,51.525501,-0.032267,39.0,Mile End,LU,35.0
+"Monument Street, Monument",22840,23590,51.50964,-0.08497,22.0,Cannon Street LU,LU,413.0
+"Pritchard's Road, Bethnal Green",22821,22063,51.532091,-0.061419,30.0,Cambridge Heath,LO,292.0
+"Flood Street, Chelsea",22647,23266,51.488023,-0.166878,33.0,South Kensington,LU,831.0
+"Park Road (Baker Street), The Regent's Park",22504,22098,51.524517,-0.158963,22.0,Baker Street,LU,210.0
+"Pall Mall East, West End",22495,25829,51.50777,-0.130699,22.0,Piccadilly Circus,LU,299.0
+"Imperial College, Knightsbridge",22080,23892,51.499428,-0.179702,33.0,Gloucester Road,LU,609.0
+"Leonard Circus , Shoreditch",22071,23356,51.524696,-0.084439,43.0,Old Street,LU,241.0
+"Bramham Gardens, Earl's Court",22062,19965,51.490163,-0.190393,29.0,Earl's Court,LU,302.0
+"Drayton Gardens, West Chelsea",22057,22041,51.487196,-0.179369,18.0,South Kensington,LU,852.0
+"Falcon Road, Clapham Junction",21969,22396,51.466633,-0.169821,28.0,Clapham Junction,LO,254.0
+"Eastbourne Mews, Paddington",21823,19815,51.516417,-0.179135,34.0,Paddington TfL,LU,215.0
+"Flamborough Street, Limehouse",21817,21636,51.512871,-0.038986,24.0,Limehouse DLR,DLR,68.0
+"Boston Place, Marylebone",21657,16760,51.522511,-0.162298,26.0,Marylebone LU,LU,84.0
+"Kennington Cross, Kennington",21594,21054,51.48894,-0.111435,47.0,Kennington,LU,442.0
+"St Mary's Hospital, Paddington",21563,20494,51.518268,-0.171103,20.0,Edgware Road (Bak),LU,235.0
+"Stepney Green Station, Stepney",21379,21163,51.521889,-0.04667,21.0,Stepney Green,LU,51.0
+"Malet Street, Bloomsbury",21136,21638,51.52168,-0.130431,49.0,Goodge Street,LU,325.0
+"Bunhill Row, Moorgate",21090,23089,51.520858,-0.089887,30.0,Moorgate,LU,276.0
+"Moorfields, Moorgate",21031,23041,51.519069,-0.088285,54.0,Moorgate,LU,87.0
+"Lancaster Gate , Bayswater",20894,15645,51.511654,-0.179668,38.0,Lancaster Gate,LU,294.0
+"Golden Square, Soho",20792,22569,51.511897,-0.137043,18.0,Piccadilly Circus,LU,336.0
+"Dorset Square, Marylebone",20788,20372,51.522596,-0.161113,16.0,Marylebone LU,LU,166.0
+"Westbridge Road, Battersea",20733,20693,51.477684,-0.170329,28.0,Imperial Wharf,LO,919.0
+"Imperial Wharf Station, Sands End",20661,20575,51.474665,-0.183165,25.0,Imperial Wharf,LO,38.0
+"Wells Street, Fitzrovia",20575,21299,51.517344,-0.138072,38.0,Oxford Circus,LU,304.0
+"Sopwith Way, Battersea Park",20526,20634,51.481121,-0.149035,30.0,Battersea Power Station,LU,520.0
+"Porchester Place, Paddington",20447,19476,51.514746,-0.165164,18.0,Marble Arch,LU,464.0
+"Bank of England Museum, Bank",20302,21415,51.514441,-0.087587,16.0,Bank and Monument,LU,156.0
+"Hinde Street, Marylebone",20294,20943,51.516814,-0.151926,21.0,Bond Street,LU,372.0
+"Macclesfield Rd, St Lukes",20286,16803,51.529423,-0.097122,28.0,Angel,LU,706.0
+"Wright's Lane, Kensington",20231,21223,51.500397,-0.193068,37.0,High Street Kensington,LU,110.0
+"Greenland Road, Camden Town",19993,20108,51.539099,-0.141728,36.0,Camden Town,LU,109.0
+"Riverlight North, Nine Elms",19988,20004,51.482362,-0.136123,24.0,Battersea Power Station,LU,517.0
+"Jubilee Plaza, Canary Wharf",19942,20623,51.5034,-0.020242,63.0,Canary Wharf LU,LU,57.0
+"LMU Commercial Road, Whitechapel",19868,19735,51.514924,-0.066078,14.0,Aldgate East,LU,479.0
+"Endsleigh Gardens, Euston",19745,17781,51.526838,-0.130504,32.0,Euston LU,LU,280.0
+"New Road 1 , Whitechapel",19680,19803,51.518154,-0.062697,36.0,Whitechapel,LU,277.0
+"Tysoe Street, Clerkenwell",19599,19259,51.526443,-0.109256,20.0,Farringdon,LU,759.0
+"Broadwick Street, Soho",19599,20693,51.513684,-0.13558,18.0,Oxford Circus,LU,402.0
+"Alderney Street, Pimlico",19557,18125,51.488057,-0.140741,14.0,Pimlico,LU,554.0
+"South Wharf Road, Paddington",19527,18265,51.517335,-0.17581,16.0,Paddington TfL,LU,46.0
+"The Vale, Chelsea",19494,19413,51.485121,-0.174971,24.0,South Kensington,LU,998.0
+"Fournier Street, Whitechapel",19473,19610,51.519362,-0.074431,18.0,Aldgate East,LU,486.0
+"Devonshire Terrace, Bayswater",19408,17621,51.51348,-0.17977,16.0,Lancaster Gate,LU,348.0
+"Southampton Street, Strand",19392,19505,51.510701,-0.121723,14.0,Covent Garden,LU,299.0
+"Warwick Road, Olympia",19357,18900,51.496712,-0.205284,36.0,Kensington (Olympia),LO,376.0
+"South Lambeth Road, Vauxhall",19317,19242,51.481747,-0.124642,21.0,Nine Elms,LU,330.0
+"Frith Street, Soho",19246,19988,51.513103,-0.131213,18.0,Leicester Square,LU,288.0
+"Aldersgate Street, Barbican",19177,19288,51.520841,-0.09734,15.0,Barbican,LU,74.0
+"Phillimore Gardens, Kensington",19170,19875,51.499606,-0.197574,37.0,High Street Kensington,LU,434.0
+"Snowsfields, London Bridge",19113,21092,51.502153,-0.083632,31.0,London Bridge LU,LU,325.0
+"Temple Gardens, Temple",19053,19574,51.510981,-0.108322,24.0,Temple,LU,374.0
+"Curlew Street, Shad Thames",19015,18953,51.502279,-0.074189,21.0,Bermondsey,LU,834.0
+"Castlehaven Road, Camden Town",18940,19164,51.542138,-0.145393,29.0,Camden Town,LU,315.0
+"Northumberland Avenue, Strand",18937,21482,51.506767,-0.123702,37.0,Embankment,LU,110.0
+"Tavistock Street, Covent Garden",18904,20753,51.511968,-0.120718,33.0,Covent Garden,LU,277.0
+"Howland Street, Fitzrovia",18899,18945,51.520994,-0.139016,30.0,Goodge Street,LU,294.0
+"Granby Street, Shoreditch",18857,18209,51.525645,-0.069543,37.0,Shoreditch High Street,LO,575.0
+"Hatton Wall, Holborn",18851,19396,51.521661,-0.109006,26.0,Farringdon,LU,331.0
+"Taviton Street, Bloomsbury",18850,18073,51.52505,-0.131161,30.0,Euston Square,LU,293.0
+"High Holborn , Covent Garden",18783,19601,51.516398,-0.124257,20.0,Holborn,LU,319.0
+"Sutton Street, Shadwell",18778,17916,51.511066,-0.053558,33.0,Shadwell LO,LO,234.0
+"Berry Street, Clerkenwell",18766,18650,51.522853,-0.099994,41.0,Barbican,LU,333.0
+"Liverpool Road (N1 Centre), Angel",18746,18737,51.534504,-0.106992,24.0,Angel,LU,197.0
+"Dock Street, Wapping",18738,18518,51.509786,-0.068161,30.0,Tower Gateway,DLR,438.0
+"Maida Vale, Maida Vale",18691,18339,51.529857,-0.183486,39.0,Maida Vale,LU,136.0
+"Seville Street, Knightsbridge",18608,19025,51.501855,-0.159237,27.0,Knightsbridge,LU,113.0
+"Haggerston Road, Haggerston",18583,18412,51.539328,-0.074284,37.0,Haggerston,LO,116.0
+"Monier Road, Hackney Wick",18566,18426,51.540311,-0.02163,27.0,Hackney Wick,LO,440.0
+"Sea Containers, South Bank",18563,18752,51.508033,-0.106823,30.0,Southwark,LU,470.0
+"Red Lion Street, Holborn",18512,19118,51.51824,-0.11655,36.0,Holborn,LU,254.0
+"Bishop's Bridge Road West, Bayswater",18490,17568,51.51616,-0.18697,18.0,Royal Oak,LU,270.0
+"Bricklayers Arms, Borough",18486,18033,51.495061,-0.085814,28.0,Borough,LU,883.0
+"Clerkenwell Green, Clerkenwell",18447,18295,51.52326,-0.104708,21.0,Farringdon,LU,341.0
+"Normand Park, West Kensington",18399,18142,51.484386,-0.204815,24.0,West Kensington,LU,644.0
+"Tanner Street, Bermondsey",18399,19395,51.500647,-0.0786,41.0,London Bridge LU,LU,681.0
+"Parson's Green , Parson's Green",18315,18216,51.472817,-0.199783,21.0,Parsons Green,LU,256.0
+"Erin Close, Walham Green",18270,18374,51.479463,-0.195777,24.0,Fulham Broadway,LU,90.0
+"North Audley Street, Mayfair",18268,18721,51.512911,-0.153645,17.0,Bond Street,LU,296.0
+"Guilford Street , Bloomsbury",18253,17993,51.523346,-0.120202,32.0,Russell Square,LU,306.0
+"Gauden Road, Clapham",18238,17756,51.464995,-0.130908,28.0,Clapham North,LU,70.0
+"Fanshaw Street, Hoxton",18189,15716,51.529537,-0.083353,36.0,Old Street,LU,530.0
+"Harcourt Terrace, West Brompton",18189,17306,51.487958,-0.187404,24.0,West Brompton,LU,568.0
+"Wenlock Road , Hoxton",18177,14483,51.530991,-0.093903,28.0,Old Street,LU,742.0
+"Albert Bridge Road, Battersea Park",18068,17553,51.474392,-0.163347,20.0,Clapham Junction,LO,1215.0
+"Bath Street, St. Luke's",18034,17918,51.525893,-0.090847,18.0,Old Street,LU,226.0
+"British Museum, Bloomsbury",17953,18023,51.51908,-0.124678,35.0,Holborn,LU,393.0
+"London Street, Paddington",17932,16442,51.515117,-0.173712,19.0,Paddington TfL,LU,268.0
+"Page Street, Westminster",17904,19009,51.493978,-0.127554,24.0,Pimlico,LU,625.0
+"Palace Gardens Terrace, Notting Hill",17886,15661,51.508605,-0.193764,37.0,Notting Hill Gate,LU,172.0
+"Ansell House, Stepney",17834,17176,51.520019,-0.05438,41.0,Whitechapel,LU,352.0
+"Stephendale Road, Sands End",17737,17491,51.46822,-0.190346,48.0,Imperial Wharf,LO,910.0
+"Goldsmith's Row, Haggerston",17715,16820,51.531864,-0.066035,27.0,Cambridge Heath,LO,611.0
+"Hampstead Road, Euston",17681,17363,51.525542,-0.138231,54.0,Warren Street,LU,107.0
+"Kensington Church Street, Kensington",17625,17595,51.503157,-0.191496,17.0,High Street Kensington,LU,270.0
+"Buckingham Gate, Westminster",17574,18423,51.498865,-0.137424,16.0,St. James's Park,LU,259.0
+"Bonny Street, Camden Town",17450,16960,51.541603,-0.138853,45.0,Camden Road,LO,37.0
+"All Saints Church, Portobello",17389,17097,51.51632,-0.202608,37.0,Westbourne Park,LU,533.0
+"Walworth Square, Walworth",17353,17189,51.491327,-0.096518,24.0,Elephant & Castle LU,LU,582.0
+"Russell Square Station, Bloomsbury",17332,17327,51.523418,-0.124121,26.0,Russell Square,LU,56.0
+"Queen's Gate (North), Kensington",17316,17482,51.501026,-0.180246,41.0,Gloucester Road,LU,761.0
+"Strand, Strand",17271,17541,51.512582,-0.115057,35.0,Temple,LU,195.0
+"Graham Street, Angel",17261,14800,51.532661,-0.099981,26.0,Angel,LU,389.0
+"Penywern Road, Earl's Court",17167,16218,51.491593,-0.192369,17.0,Earl's Court,LU,137.0
+"Waterloo Place, St. James's",17131,18073,51.506633,-0.131773,20.0,Piccadilly Circus,LU,366.0
+"Howick Place, Westminster",17065,20054,51.496753,-0.138733,27.0,Victoria LU,LU,361.0
+"West Smithfield Rotunda, Farringdon",17059,17329,51.518218,-0.100791,15.0,Barbican,LU,307.0
+"Old Brompton Road, South Kensington",17031,16236,51.490945,-0.18119,30.0,Gloucester Road,LU,427.0
+"Queen Victoria Street, St. Paul's",16949,18288,51.511961,-0.097441,32.0,Mansion House,LU,225.0
+"Elizabeth Bridge, Victoria",16943,19211,51.492369,-0.147478,34.0,Victoria LU,LU,514.0
+"Binfield Road, Stockwell",16933,16930,51.472509,-0.122831,35.0,Stockwell,LU,39.0
+"Doric Way , Somers Town",16899,13987,51.528833,-0.13225,50.0,Euston LU,LU,75.0
+"Cranmer Road, Stockwell",16849,16921,51.479601,-0.111471,24.0,Oval,LU,239.0
+"Crawford Street, Marylebone",16823,16744,51.52026,-0.157183,18.0,Baker Street,LU,320.0
+"Parsons Green Station, Parsons Green",16815,16866,51.475089,-0.201968,56.0,Parsons Green,LU,60.0
+"Shoreditch Park, Hoxton",16786,15063,51.534042,-0.086379,30.0,Hoxton,LO,803.0
+"Jewry Street, Aldgate",16755,16984,51.513406,-0.076793,17.0,Aldgate,LU,132.0
+"Columbia Road, Shoreditch",16720,15771,51.528187,-0.075375,24.0,Hoxton,LO,357.0
+"Queen Mother Sports Centre, Victoria",16716,17693,51.493573,-0.139956,26.0,Victoria LU,LU,419.0
+"Tower Wharf, Bermondsey",16704,16713,51.500845,-0.074704,20.0,Bermondsey,LU,786.0
+"Gloucester Road (North), Kensington",16703,16616,51.497924,-0.183834,18.0,Gloucester Road,LU,381.0
+"George Row, Bermondsey",16697,16732,51.498585,-0.068981,22.0,Bermondsey,LU,329.0
+"Gloucester Street, Pimlico",16687,15075,51.490962,-0.139625,25.0,Pimlico,LU,478.0
+"Baldwin Street, St. Luke's",16667,16811,51.527025,-0.088542,21.0,Old Street,LU,173.0
+"Museum of London, Barbican",16634,16673,51.517821,-0.096496,52.0,Barbican,LU,279.0
+"Montpelier Street, Knightsbridge",16595,16816,51.498884,-0.165471,16.0,Knightsbridge,LU,431.0
+"Rampayne Street, Pimlico",16583,15801,51.489975,-0.132845,21.0,Pimlico,LU,50.0
+"Vicarage Crescent, Battersea",16527,15963,51.472876,-0.176267,30.0,Imperial Wharf,LO,510.0
+"Blackfriars Road, Southwark",16514,16820,51.505461,-0.10454,42.0,Southwark,LU,199.0
+"Simpson Street, Clapham Junction",16508,16512,51.470847,-0.170703,25.0,Clapham Junction,LO,721.0
+"Barons Court Station, West Kensington",16497,16465,51.490217,-0.215087,32.0,Barons Court,LU,115.0
+"Royal Avenue 2, Chelsea",16464,16564,51.490083,-0.162418,10.0,Sloane Square,LU,482.0
+"Westferry DLR, Limehouse",16457,17841,51.509303,-0.025996,41.0,Westferry,DLR,44.0
+"Shadwell Station, Shadwell",16366,15246,51.511088,-0.057159,35.0,Shadwell LO,LO,29.0
+"Charles II Street, West End",16339,18650,51.508446,-0.131961,24.0,Piccadilly Circus,LU,184.0
+"Empire Square, The Borough",16331,16706,51.500823,-0.08974,46.0,Borough,LU,310.0
+"St. George's Square, Pimlico",16262,14946,51.488226,-0.135635,16.0,Pimlico,LU,229.0
+"Ferndale Road, Brixton",16261,16747,51.464019,-0.115781,30.0,Brixton LU,LU,166.0
+"Podium, Queen Elizabeth Olympic Park",16146,16497,51.538718,-0.011889,40.0,Pudding Mill Lane,DLR,492.0
+"Abingdon Green, Westminster",16137,18492,51.49764,-0.125972,20.0,Westminster,LU,424.0
+"Warwick Avenue Station, Maida Vale",16121,15438,51.523344,-0.183846,19.0,Warwick Avenue,LU,67.0
+"Pott Street, Bethnal Green",16100,15879,51.527152,-0.058005,20.0,Bethnal Green LU,LU,181.0
+"Tate Modern, Bankside",16013,16344,51.506725,-0.098807,30.0,Southwark,LU,580.0
+"Phene Street, Chelsea",15951,15797,51.484984,-0.167919,24.0,South Kensington,LU,1093.0
+"Queen's Gate (South), South Kensington",15893,15953,51.492479,-0.178433,25.0,South Kensington,LU,359.0
+"New Inn Yard, Shoreditch",15865,15981,51.524526,-0.079248,20.0,Shoreditch High Street,LO,190.0
+"Queen Mary's, Mile End",15854,15448,51.522507,-0.041378,45.0,Stepney Green,LU,419.0
+"Holy Trinity Brompton, Knightsbridge",15844,16893,51.497056,-0.168917,28.0,South Kensington,LU,480.0
+"Great Dover Street, The Borough",15843,15332,51.497382,-0.089446,33.0,Borough,LU,524.0
+"Hatton Garden, Holborn",15828,14535,51.518825,-0.108028,28.0,Farringdon,LU,268.0
+"Westferry Circus, Canary Wharf",15799,17301,51.505703,-0.027772,36.0,Westferry,DLR,449.0
+"Woodstock Grove, Shepherd's Bush",15769,16298,51.504038,-0.2174,24.0,Shepherd's Bush LU,LU,95.0
+"Natural History Museum, South Kensington",15768,17296,51.495592,-0.179077,42.0,Gloucester Road,LU,332.0
+"Hammersmith Road, Hammersmith",15729,15883,51.493267,-0.21985,22.0,Hammersmith (DIS),LU,282.0
+"De Vere Gardens, Kensington",15722,13589,51.501737,-0.18498,28.0,High Street Kensington,LU,469.0
+"Bridge Avenue, Hammersmith",15719,15980,51.492084,-0.229116,18.0,Hammersmith (H&C),LU,318.0
+"Grosvenor Square, Mayfair",15710,18642,51.51217,-0.150481,17.0,Bond Street,LU,191.0
+"Brunswick Square, Bloomsbury",15706,15488,51.523951,-0.122502,24.0,Russell Square,LU,178.0
+"Ashley Place, Victoria",15686,16399,51.49616,-0.140947,25.0,Victoria LU,LU,208.0
+"Great Russell Street, Bloomsbury",15683,16238,51.517727,-0.127854,26.0,Tottenham Court Road,LU,281.0
+"Turquoise Island, Notting Hill",15670,15318,51.514311,-0.200838,21.0,Notting Hill Gate,LU,646.0
+"New Cavendish Street, Marylebone",15650,15869,51.519167,-0.147983,18.0,Regent's Park,LU,548.0
+"Victoria Park Road, Hackney Central",15642,15320,51.536424,-0.054162,34.0,Cambridge Heath,LO,529.0
+"Broadcasting House, Marylebone",15632,16079,51.518117,-0.144228,18.0,Oxford Circus,LU,398.0
+"Millbank Tower, Pimlico",15630,15755,51.491884,-0.125674,24.0,Pimlico,LU,576.0
+"Wapping Lane, Wapping",15617,15544,51.504749,-0.057544,28.0,Wapping,LO,125.0
+"Crisp Road, Hammersmith",15607,16487,51.488108,-0.226606,46.0,Hammersmith (DIS),LU,510.0
+"Ram Street, Wandsworth",15604,16021,51.457529,-0.192165,25.0,East Putney,LU,1313.0
+"Theobald's Road , Holborn",15587,15221,51.520596,-0.116688,26.0,Chancery Lane,LU,402.0
+"Ontario Street, Elephant & Castle",15556,15548,51.49652,-0.101384,15.0,Elephant & Castle LU,LU,87.0
+"York Hall, Bethnal Green",15529,15200,51.528936,-0.055894,27.0,Bethnal Green LU,LU,197.0
+"Milroy Walk, South Bank",15468,15634,51.507244,-0.106237,30.0,Southwark,LU,378.0
+"Bow Church Station, Bow",15402,15052,51.528169,-0.018703,39.0,Bow Church,DLR,139.0
+"Horseferry Road, Westminster",15394,16313,51.494816,-0.130458,16.0,St. James's Park,LU,583.0
+"Upper Bank Street, Canary Wharf",15382,15985,51.503083,-0.017676,36.0,Canary Wharf LU,LU,136.0
+"Brick Lane Market, Shoreditch",15369,15524,51.522617,-0.071653,24.0,Shoreditch High Street,LO,388.0
+"Albany Street, The Regent's Park",15350,13242,51.528302,-0.144465,27.0,Great Portland Street,LU,503.0
+"Chapel Place, Marylebone",15332,16870,51.515308,-0.147203,29.0,Bond Street,LU,237.0
+"Northington Street , Holborn",15327,15220,51.522264,-0.114079,19.0,Chancery Lane,LU,444.0
+"Twig Folly Bridge, Mile End",15312,14286,51.530326,-0.042744,21.0,Mile End,LU,893.0
+"Austin Road, Battersea Park",15305,14803,51.474376,-0.155442,24.0,Battersea Power Station,LU,1091.0
+"Godliman Street, St. Paul's",15305,16342,51.512484,-0.099141,25.0,St. Paul's,LU,283.0
+"Worship Street, Shoreditch",15264,17225,51.521668,-0.079608,51.0,Shoreditch High Street,LO,265.0
+"Baker Street, Marylebone",15251,15398,51.518913,-0.156166,22.0,Baker Street,LU,472.0
+"East Village, Queen Elizabeth Olympic Park",15250,15407,51.546326,-0.009935,34.0,Stratford International DLR,DLR,187.0
+"Bell Lane, Liverpool Street",15239,15479,51.517475,-0.075855,23.0,Aldgate East,LU,331.0
+"Halford Road, West Kensington",15222,14961,51.483911,-0.197609,24.0,West Brompton,LU,406.0
+"Birkenhead Street, King's Cross",15167,15993,51.530199,-0.122299,27.0,King's Cross St. Pancras,LU,110.0
+"Bolsover Street, Fitzrovia",15149,15080,51.523518,-0.143613,19.0,Great Portland Street,LU,39.0
+"Sadlers Sports Centre, Finsbury",15121,14161,51.524868,-0.099489,17.0,Barbican,LU,532.0
+"Ilchester Gardens, Bayswater",15117,13754,51.51244,-0.19096,21.0,Bayswater,LU,215.0
+"Abbey Orchard Street, Westminster",15117,17905,51.498125,-0.132102,29.0,St. James's Park,LU,206.0
+"Ossulston Street, Somers Town",15100,14624,51.5293,-0.128279,30.0,King's Cross St. Pancras,LU,325.0
+"Doddington Grove, Kennington",15087,14587,51.486929,-0.102996,36.0,Kennington,LU,240.0
+"Store Street, Bloomsbury",15060,15488,51.519572,-0.13214,32.0,Goodge Street,LU,218.0
+"Sackville Street, Mayfair",15007,16293,51.510048,-0.138846,18.0,Piccadilly Circus,LU,357.0
+"Lollard Street, Vauxhall",14970,14624,51.49288,-0.114934,25.0,Lambeth North,LU,729.0
+"Greyhound Road, Hammersmith",14895,14374,51.486062,-0.214428,37.0,Barons Court,LU,468.0
+"World's End Place, West Chelsea",14880,14741,51.481805,-0.180274,22.0,Imperial Wharf,LO,784.0
+"Westfield Ariel Way, White City",14875,15831,51.509158,-0.224103,42.0,Wood Lane,LU,61.0
+"New Fetter Lane, Holborn",14856,13088,51.517428,-0.107987,21.0,Chancery Lane,LU,299.0
+"Exhibition Road Museums 1, South Kensington",14853,15441,51.496468,-0.173796,13.0,South Kensington,LU,267.0
+"Bankside Mix, Bankside",14833,17383,51.505817,-0.100186,60.0,Southwark,LU,445.0
+"Vereker Road, West Kensington",14820,14525,51.489591,-0.209378,32.0,West Kensington,LU,227.0
+"Hibbert Street, Battersea",14801,14818,51.46517,-0.180389,36.0,Clapham Junction,LO,704.0
+"Cadogan Close, Victoria Park",14796,14684,51.542118,-0.028941,22.0,Hackney Wick,LO,301.0
+"Canada Water Station, Rotherhithe",14782,15653,51.498439,-0.04915,35.0,Canada Water,LU,119.0
+"Warwick Square, Pimlico",14770,12624,51.489856,-0.141923,19.0,Pimlico,LU,611.0
+"The Tennis Courts, The Regent's Park",14741,14756,51.525367,-0.153463,16.0,Baker Street,LU,344.0
+"Central House, Aldgate",14697,14804,51.515231,-0.07015,24.0,Aldgate East,LU,198.0
+"Coomer Place, West Kensington",14683,14591,51.48357,-0.202038,27.0,Fulham Broadway,LU,581.0
+"Hampton Street, Walworth",14660,14535,51.49217,-0.101536,21.0,Elephant & Castle LU,LU,413.0
+"Paddington Street, Marylebone",14635,14610,51.520583,-0.154701,16.0,Baker Street,LU,322.0
+"Chelsea Bridge, Pimlico",14594,14679,51.485821,-0.149004,15.0,Battersea Power Station,LU,854.0
+"Sun Street, Liverpool Street",14587,15256,51.520009,-0.083935,24.0,Liverpool Street LU,LU,292.0
+"Handyside Street, King's Cross",14566,14381,51.53724,-0.124807,27.0,King's Cross St. Pancras,LU,773.0
+"Trebovir Road, Earl's Court",14550,14065,51.490853,-0.19617,18.0,Earl's Court,LU,140.0
+"Globe Town Market, Bethnal Green",14547,13754,51.528869,-0.047548,20.0,Bethnal Green LU,LU,574.0
+"St. Luke's Church, Chelsea",14537,14498,51.489716,-0.170194,20.0,South Kensington,LU,549.0
+"Prince of Wales Drive, Battersea Park",14473,13920,51.475153,-0.159169,21.0,Battersea Power Station,LU,1283.0
+"Belvedere Road 1, South Bank",14441,16008,51.506133,-0.114686,38.0,Waterloo LU,LU,346.0
+"Southampton Place, Holborn",14422,14819,51.517606,-0.121328,20.0,Holborn,LU,111.0
+"Beaumont Street, Marylebone",14419,14340,51.522008,-0.151359,23.0,Baker Street,LU,403.0
+"Pont Street, Knightsbridge",14417,15099,51.496886,-0.161203,24.0,Knightsbridge,LU,498.0
+"Chesilton Road, Fulham",14384,13894,51.475698,-0.205876,23.0,Parsons Green,LU,339.0
+"Portman Square, Marylebone",14381,14755,51.516204,-0.155525,17.0,Marble Arch,LU,326.0
+"Houndsditch, Aldgate",14319,14575,51.514449,-0.077178,28.0,Aldgate,LU,108.0
+"Driffield Road, Old Ford",14286,13686,51.534137,-0.037366,19.0,Mile End,LU,1034.0
+"Gascoyne Road, Victoria Park",14272,14258,51.541515,-0.038557,20.0,Homerton,LO,565.0
+"Black Prince Road, Vauxhall",14238,13987,51.490867,-0.116911,19.0,Vauxhall LU,LU,745.0
+"Hertford Road, De Beauvoir Town",14235,12846,51.537277,-0.079201,25.0,Haggerston,LO,294.0
+"Cadogan Place, Knightsbridge",14217,16479,51.494645,-0.158105,34.0,Sloane Square,LU,278.0
+"Webber Street , Southwark",14166,13408,51.500693,-0.102091,45.0,Southwark,LU,435.0
+"Tachbrook Street, Victoria",14162,13773,51.492111,-0.138364,16.0,Pimlico,LU,462.0
+"George Street, Marylebone",14126,14686,51.517703,-0.154106,27.0,Marble Arch,LU,518.0
+"Chadwell Street, Angel",14126,12269,51.530515,-0.106408,18.0,Angel,LU,279.0
+"Old Montague Street, Whitechapel",14090,13671,51.51793,-0.067937,18.0,Aldgate East,LU,472.0
+"Sandilands Road, Walham Green",14049,13747,51.473611,-0.191803,21.0,Imperial Wharf,LO,638.0
+"Manresa Road, Chelsea",13981,13898,51.486892,-0.170983,18.0,South Kensington,LU,824.0
+"Bermondsey Station, Bermondsey",13974,14669,51.497995,-0.063471,30.0,Bermondsey,LU,60.0
+"Southwick Street, Paddington",13952,12487,51.515953,-0.169249,17.0,Edgware Road (DIS),LU,445.0
+"Exhibition Road Museums 2, South Kensington",13948,14367,51.495947,-0.173689,14.0,South Kensington,LU,209.0
+"Shouldham Street, Marylebone",13923,13381,51.51809,-0.163609,16.0,Edgware Road (DIS),LU,352.0
+"Albert Square, Stockwell",13908,13291,51.47659,-0.118256,32.0,Stockwell,LU,586.0
+"Caldwell Street, Stockwell",13884,13653,51.477839,-0.116493,44.0,Oval,LU,454.0
+"Aintree Street, Fulham",13878,13058,51.481021,-0.209973,24.0,Parsons Green,LU,911.0
+"Norton Folgate, Liverpool Street",13873,14156,51.521113,-0.078869,23.0,Shoreditch High Street,LO,289.0
+"St. Peter's Terrace, Fulham",13863,13272,51.478939,-0.208485,24.0,Parsons Green,LU,675.0
+"Saltoun Road, Brixton",13849,15065,51.460232,-0.115375,42.0,Brixton LU,LU,284.0
+"Stratford Station, Stratford",13830,14283,51.541793,-0.00481,28.0,Stratford,LU,74.0
+"Furze Green, Bow",13798,13388,51.519265,-0.021345,36.0,Devons Road,DLR,405.0
+"Foley Street, Fitzrovia",13768,13855,51.519181,-0.140485,0.0,Goodge Street,LU,424.0
+"Westbourne Grove, Bayswater",13736,13043,51.515529,-0.19024,26.0,Royal Oak,LU,323.0
+"Prince Albert Road, The Regent's Park",13735,13250,51.535892,-0.160854,24.0,St. John's Wood,LU,921.0
+"Watney Street, Shadwell",13711,12593,51.511542,-0.056667,27.0,Shadwell LO,LO,32.0
+"Ravenscourt Park Station, Hammersmith",13709,14492,51.494223,-0.236769,26.0,Ravenscourt Park,LU,58.0
+"Belgrave Road, Victoria",13695,14589,51.493204,-0.144132,29.0,Victoria LU,LU,358.0
+"Union Street, The Borough",13687,13529,51.503688,-0.098497,17.0,Borough,LU,418.0
+"Bourne Street, Belgravia",13674,13738,51.490959,-0.153233,16.0,Sloane Square,LU,274.0
+"Normandy Road, Stockwell",13667,13511,51.473874,-0.11258,32.0,Stockwell,LU,736.0
+"St. John's Road, Clapham Junction",13660,15081,51.462392,-0.168292,33.0,Clapham Junction,LO,260.0
+"Bevington Road West, North Kensington",13651,13557,51.5212,-0.208888,24.0,Ladbroke Grove,LU,453.0
+"Barbican Centre, Barbican",13635,13759,51.520044,-0.092176,19.0,Moorgate,LU,282.0
+"Hartington Road, Stockwell",13597,13419,51.47787,-0.126874,35.0,Nine Elms,LU,262.0
+"Hereford Road, Bayswater",13586,12291,51.513735,-0.193487,22.0,Bayswater,LU,427.0
+"Portland Place, Marylebone",13568,13598,51.520715,-0.145211,34.0,Regent's Park,LU,344.0
+"Wren Street, Holborn",13541,13277,51.524564,-0.116279,33.0,Russell Square,LU,600.0
+"Smith Square, Westminster",13541,15027,51.495805,-0.127575,18.0,St. James's Park,LU,608.0
+"St. Mary Axe, Aldgate",13537,13590,51.514225,-0.08066,21.0,Aldgate,LU,349.0
+"Embankment (Savoy), Strand",13477,13647,51.509631,-0.119047,41.0,Embankment,LU,345.0
+"Alfreda Street, Battersea Park",13456,13188,51.47505,-0.150908,22.0,Battersea Power Station,LU,791.0
+"Stamford Street, South Bank",13435,14499,51.505569,-0.111606,27.0,Waterloo LU,LU,293.0
+"Hortensia Road, West Brompton",13390,13081,51.481765,-0.185273,28.0,Fulham Broadway,LU,731.0
+"Mile End Park Leisure Centre, Mile End",13356,13054,51.520597,-0.032566,47.0,Mile End,LU,524.0
+"Walnut Tree Walk, Vauxhall",13353,12654,51.493686,-0.111014,20.0,Lambeth North,LU,608.0
+"St. Bride Street, Holborn",13318,17644,51.514665,-0.104583,24.0,Blackfriars LU,LU,359.0
+"Cartwright Gardens , Bloomsbury",13311,12034,51.526357,-0.125979,21.0,Russell Square,LU,384.0
+"Knightsbridge, Hyde Park",13295,9477,51.502757,-0.155349,43.0,Hyde Park Corner,LU,200.0
+"Claverton Street, Pimlico",13262,12781,51.484839,-0.138089,32.0,Pimlico,LU,627.0
+"Lansdowne Road, Ladbroke Grove",13222,13042,51.507481,-0.205535,29.0,Holland Park,LU,80.0
+"Queen's Gate (Central), South Kensington",13207,13562,51.493967,-0.178732,31.0,South Kensington,LU,333.0
+"Lower Marsh, Waterloo",13166,13451,51.500139,-0.113935,17.0,Lambeth North,LU,187.0
+"Fire Brigade Pier, Vauxhall",13141,12327,51.493699,-0.121394,30.0,Westminster,LU,892.0
+"Rodney Road , Walworth",13124,12608,51.491484,-0.09022,24.0,Elephant & Castle LU,LU,875.0
+"Regency Street, Westminster",13096,12350,51.49206,-0.132224,22.0,Pimlico,LU,285.0
+"St. John's Wood Church, The Regent's Park",13081,10059,51.530529,-0.167515,50.0,St. John's Wood,LU,661.0
+"Battersea Church Road, Battersea",13039,12625,51.476964,-0.174347,25.0,Imperial Wharf,LO,630.0
+"Hoxton Station, Hoxton",13023,12100,51.531091,-0.075901,22.0,Hoxton,LO,40.0
+"Long Lane , Bermondsey",12984,12716,51.499075,-0.085666,20.0,London Bridge LU,LU,623.0
+"Kingsway Southbound, Strand",12956,14309,51.513875,-0.117774,33.0,Holborn,LU,400.0
+"Grant Road East, Clapham Junction",12925,13138,51.464894,-0.173029,28.0,Clapham Junction,LO,197.0
+"Clapham Common North Side, Clapham Common",12912,11727,51.461343,-0.159322,37.0,Clapham Junction,LO,832.0
+"Golden Lane, Barbican",12885,12590,51.521747,-0.094475,27.0,Barbican,LU,282.0
+"Murray Grove , Hoxton",12827,10600,51.53089,-0.089782,27.0,Old Street,LU,609.0
+"Lavington Street, Bankside",12824,13404,51.505224,-0.098031,29.0,Borough,LU,535.0
+"Finlay Street, Fulham",12815,12497,51.476885,-0.215895,24.0,Parsons Green,LU,1045.0
+"Tavistock Place, Bloomsbury",12815,11732,51.52625,-0.123509,19.0,Russell Square,LU,368.0
+"Charing Cross Hospital, Hammersmith",12769,12600,51.487285,-0.217995,21.0,Barons Court,LU,455.0
+"Wellington Row, Bethnal Green",12768,12249,51.528222,-0.069743,33.0,Hoxton,LO,536.0
+"Burdett Road, Mile End",12752,12762,51.516196,-0.029137,33.0,Westferry,DLR,755.0
+"Timber Lodge, Queen Elizabeth Olympic Park",12734,12859,51.546805,-0.014691,35.0,Stratford International DLR,DLR,465.0
+"Humbolt Road, Fulham",12702,12092,51.483217,-0.21186,26.0,Barons Court,LU,787.0
+"Albert Embankment, Vauxhall",12688,12605,51.490435,-0.122806,24.0,Vauxhall LU,LU,527.0
+"Philpot Street, Whitechapel",12669,12029,51.515256,-0.058641,30.0,Shadwell LO,LO,456.0
+"Harrington Square 1, Camden Town",12649,11533,51.533019,-0.139174,27.0,Mornington Crescent,LU,152.0
+"St. Katharine's Way, Tower",12645,12335,51.505697,-0.070542,24.0,Tower Gateway,DLR,587.0
+"North Wharf Road, Paddington",12587,11630,51.518623,-0.176603,23.0,Paddington TfL,LU,185.0
+"Gloucester Avenue, Camden Town",12549,12291,51.537349,-0.147154,24.0,Camden Town,LU,437.0
+"Lexham Gardens, Kensington",12501,11875,51.495866,-0.191933,19.0,Earl's Court,LU,528.0
+"Finsbury Square , Moorgate",12489,14045,51.520962,-0.085634,33.0,Moorgate,LU,366.0
+"Ackroyd Drive, Bow",12469,11518,51.520398,-0.026768,29.0,Devons Road,DLR,640.0
+"Windsor Terrace, Hoxton",12467,10335,51.529154,-0.093421,24.0,Old Street,LU,565.0
+"Kennington Road Post Office, Oval",12402,12346,51.484788,-0.110683,18.0,Oval,LU,417.0
+"City Road, Angel",12400,9721,51.530344,-0.100168,47.0,Angel,LU,475.0
+"Collingham Gardens, Earl's Court",12358,11705,51.491615,-0.186753,14.0,Gloucester Road,LU,390.0
+"Bow Road Station, Bow",12335,11549,51.527058,-0.025296,42.0,Bow Road,LU,65.0
+"St. George Street, Mayfair",12320,14916,51.51196,-0.142783,18.0,Oxford Circus,LU,387.0
+"Kennington Station, Kennington",12290,12194,51.488852,-0.105593,23.0,Kennington,LU,42.0
+"Knaresborough Place, Earl's Court",12276,11710,51.493631,-0.190603,18.0,Earl's Court,LU,361.0
+"Cadogan Gardens, Chelsea",12223,12524,51.492462,-0.159919,15.0,Sloane Square,LU,238.0
+"Ormonde Gate, Chelsea",12214,12419,51.487964,-0.161765,24.0,Sloane Square,LU,610.0
+"Fisherman's Walk West, Canary Wharf",12165,12274,51.50623,-0.02296,36.0,West India Quay,DLR,175.0
+"Gunmakers Lane, Old Ford",12162,11551,51.535179,-0.03338,17.0,Hackney Wick,LO,1088.0
+"Bury Place, Holborn",12160,12578,51.51742,-0.123189,21.0,Holborn,LU,233.0
+"Swan Street, The Borough",12149,11872,51.500296,-0.092762,27.0,Borough,LU,130.0
+"Falkirk Street, Hoxton",12056,10773,51.53095,-0.078505,26.0,Hoxton,LO,208.0
+"Durant Street, Bethnal Green",12055,11138,51.528681,-0.06555,24.0,Cambridge Heath,LO,689.0
+"Bell Street , Marylebone",11990,11403,51.522029,-0.165842,18.0,Marylebone LU,LU,168.0
+"Commercial Street, Shoreditch",11987,12074,51.52127,-0.075578,16.0,Shoreditch High Street,LO,266.0
+"York Way, Kings Cross",11987,11991,51.541596,-0.125441,24.0,Caledonian Road & Barnsbury,LO,732.0
+"Euston Road, Euston",11969,11923,51.526236,-0.134407,24.0,Euston Square,LU,107.0
+"Roscoe Street, St. Luke's",11963,11729,51.522954,-0.094934,18.0,Barbican,LU,360.0
+"Wandsworth Town Station, Wandsworth",11910,12968,51.460864,-0.187427,33.0,Clapham Junction,LO,1248.0
+"Emperor's Gate, South Kensington",11904,11795,51.495362,-0.185296,22.0,Gloucester Road,LU,155.0
+"Borough High Street, The Borough",11891,11913,51.500694,-0.094524,21.0,Borough,LU,45.0
+"Danvers Street, West Chelsea",11875,11670,51.482567,-0.172078,21.0,Imperial Wharf,LO,1129.0
+"George Place Mews, Marylebone",11837,11930,51.516892,-0.158249,16.0,Marble Arch,LU,326.0
+"Vincent Street, Pimlico",11810,10960,51.493072,-0.129925,17.0,Pimlico,LU,449.0
+"Clinton Road, Mile End",11803,11588,51.525941,-0.036017,36.0,Mile End,LU,242.0
+"Butler Place, Westminster",11800,12793,51.497829,-0.13544,18.0,St. James's Park,LU,226.0
+"Blenheim Crescent, Ladbroke Grove",11771,11615,51.515108,-0.208565,22.0,Ladbroke Grove,LU,260.0
+"Reardon Street, Wapping",11757,11382,51.506946,-0.058681,22.0,Wapping,LO,349.0
+"Ada Street, Hackney Central",11749,12131,51.535716,-0.060291,45.0,Cambridge Heath,LO,459.0
+"Salmon Lane, Limehouse",11713,11392,51.514115,-0.033828,33.0,Limehouse DLR,DLR,433.0
+"Albert Gardens, Stepney",11648,10826,51.51328,-0.047784,33.0,Limehouse DLR,DLR,591.0
+"Imperial Road, Sands End",11633,11342,51.475142,-0.187278,37.0,Imperial Wharf,LO,308.0
+"Great Titchfield Street, Fitzrovia",11633,11774,51.520253,-0.141327,19.0,Great Portland Street,LU,433.0
+"Shepherd's Bush Road North, Shepherd's Bush",11604,11734,51.501594,-0.222293,34.0,Goldhawk Road,LU,358.0
+"Mile End Stadium, Mile End",11598,11236,51.518541,-0.034903,22.0,Limehouse DLR,DLR,759.0
+"Putney Pier, Wandsworth",11586,12049,51.466907,-0.216573,28.0,Putney Bridge,LU,511.0
+"Coram Street, Bloomsbury",11563,10577,51.524,-0.126409,29.0,Russell Square,LU,167.0
+"Ebury Bridge, Pimlico",11554,11047,51.490491,-0.149186,29.0,Sloane Square,LU,547.0
+"New Kent Road, The Borough",11547,11620,51.494436,-0.092921,33.0,Elephant & Castle LU,LU,564.0
+"Vauxhall Street, Vauxhall",11540,11604,51.486965,-0.116625,19.0,Vauxhall LU,LU,517.0
+"West Cromwell Road, Earl's Court",11527,10902,51.493724,-0.198286,24.0,Earl's Court,LU,381.0
+"Bishop's Avenue, Fulham",11485,11378,51.473036,-0.214749,46.0,Putney Bridge,LU,685.0
+"Cloudesley Road, Angel",11484,6838,51.534408,-0.109025,37.0,Angel,LU,287.0
+"Tyers Gate, Bermondsey",11477,12084,51.500889,-0.083159,36.0,London Bridge LU,LU,465.0
+"Bethnal Green Garden, Bethnal Green",11432,11073,51.52568,-0.055312,24.0,Bethnal Green LU,LU,168.0
+"Borough Road, Elephant & Castle",11415,11611,51.498898,-0.10044,41.0,Elephant & Castle LU,LU,340.0
+"Pitfield Street Central, Hoxton",11375,8983,51.53213,-0.08299,30.0,Hoxton,LO,519.0
+"Gaywood  Street, Elephant & Castle",11361,11290,51.49605,-0.104193,45.0,Elephant & Castle LU,LU,240.0
+"Westminster University, Marylebone",11347,11367,51.522481,-0.154907,16.0,Baker Street,LU,156.0
+"East Road, Hoxton",11342,9769,51.528673,-0.087459,27.0,Old Street,LU,344.0
+"Nutford Place, Marylebone",11340,10764,51.516517,-0.164393,18.0,Edgware Road (DIS),LU,441.0
+"Waterloo Road, South Bank",11335,11367,51.50486,-0.113001,15.0,Waterloo LU,LU,191.0
+"Royal College Street, Camden Town",11323,10169,51.536264,-0.133952,57.0,Mornington Crescent,LU,393.0
+"Wellington Road, St. John's Wood",11275,10469,51.533043,-0.172528,17.0,St. John's Wood,LU,228.0
+"Farringdon Lane, Clerkenwell",11257,11255,51.52352,-0.10834,16.0,Farringdon,LU,442.0
+"Watney Market, Stepney",11252,10260,51.514222,-0.055656,51.0,Shadwell LO,LO,336.0
+"Curzon Street, Mayfair",11192,12761,51.507069,-0.145904,16.0,Green Park,LU,240.0
+"Harper Road, The Borough",11191,11139,51.498597,-0.096191,42.0,Borough,LU,306.0
+"Import Dock, Canary Wharf",11181,11241,51.505772,-0.01646,39.0,Poplar,DLR,210.0
+"Percival Street, Finsbury",11166,9651,51.526153,-0.102208,22.0,Farringdon,LU,687.0
+"BBC White City, White City",11143,11398,51.514767,-0.225786,36.0,White City,LU,293.0
+"Lincoln's Inn Fields, Holborn",11131,12222,51.516277,-0.118272,28.0,Holborn,LU,152.0
+"Sumner Place, South Kensington",11098,11307,51.491211,-0.173715,19.0,South Kensington,LU,318.0
+"Gloucester Terrace, Bayswater",11072,9908,51.517919,-0.188098,23.0,Royal Oak,LU,65.0
+"Star Road, West Kensington",11070,10735,51.487244,-0.205279,23.0,West Kensington,LU,325.0
+"Gloucester Road (Central), South Kensington",11047,10924,51.496462,-0.183289,19.0,Gloucester Road,LU,219.0
+"Lambeth Road, Vauxhall",11034,11048,51.494881,-0.117974,18.0,Lambeth North,LU,639.0
+"Sardinia Street, Holborn",11015,11735,51.515208,-0.117863,24.0,Holborn,LU,264.0
+"Pembridge Villas, Notting Hill",11010,10144,51.511084,-0.197524,16.0,Notting Hill Gate,LU,220.0
+"Fulham Park Road, Fulham",10963,10651,51.473471,-0.20782,27.0,Parsons Green,LU,492.0
+"Upcerne Road, West Chelsea",10960,10382,51.478169,-0.182435,29.0,Imperial Wharf,LO,360.0
+"Kennington Oval, Oval",10951,10893,51.483145,-0.113134,33.0,Oval,LU,193.0
+"Dorothy Road, Clapham Junction",10936,10705,51.465064,-0.16375,28.0,Clapham Junction,LO,461.0
+"Hewison Street, Old Ford",10929,10549,51.533283,-0.028155,19.0,Bow Road,LU,742.0
+"Kensington Gore, Knightsbridge",10902,10485,51.501432,-0.178656,23.0,Gloucester Road,LU,842.0
+"Southerton Road, Hammersmith",10888,11954,51.494499,-0.228188,38.0,Hammersmith (H&C),LU,251.0
+"Richmond Way, Shepherd's Bush",10874,10775,51.500353,-0.217515,27.0,Shepherd's Bush LU,LU,470.0
+"Cephas Street, Bethnal Green",10853,10007,51.522561,-0.054883,24.0,Whitechapel,LU,456.0
+"Fashion Street, Whitechapel",10847,10988,51.51838,-0.073438,30.0,Aldgate East,LU,368.0
+"West Kensington Station, West Kensington",10814,10506,51.49087,-0.206029,22.0,West Kensington,LU,85.0
+"Silverthorne Road, Battersea",10800,10633,51.472865,-0.148059,28.0,Wandsworth Road,LO,690.0
+"William Morris Way, Sands End",10787,10707,51.468819,-0.184318,26.0,Imperial Wharf,LO,688.0
+"Union Grove, Wandsworth Road",10783,10635,51.472993,-0.133972,45.0,Wandsworth Road,LO,467.0
+"Clifton Road, Maida Vale",10771,9960,51.525575,-0.179592,22.0,Warwick Avenue,LU,360.0
+"Grove End Road, St. John's Wood",10769,9496,51.530889,-0.17677,20.0,St. John's Wood,LU,479.0
+"Harrowby Street, Marylebone",10763,10019,51.517372,-0.164207,16.0,Edgware Road (DIS),LU,373.0
+"Lindfield Street, Poplar",10757,10531,51.513757,-0.020467,44.0,Westferry,DLR,612.0
+"Cheshire Street, Bethnal Green",10730,9676,51.52388,-0.065076,28.0,Whitechapel,LU,617.0
+"Ashley Crescent, Battersea",10700,10413,51.467185,-0.152248,28.0,Wandsworth Road,LO,975.0
+"South Parade, Chelsea",10675,10676,51.48902,-0.17524,18.0,South Kensington,LU,569.0
+"Woodstock Street, Mayfair",10657,11063,51.514105,-0.147301,21.0,Bond Street,LU,164.0
+"Palissy Street, Shoreditch",10622,9934,51.526293,-0.073955,26.0,Shoreditch High Street,LO,382.0
+"Ashmole Estate, Oval",10622,10371,51.482678,-0.117661,34.0,Oval,LU,332.0
+"Great Suffolk Street, The Borough",10615,10222,51.501732,-0.100292,21.0,Borough,LU,429.0
+"New Globe Walk, Bankside",10562,10793,51.507385,-0.09644,19.0,Mansion House,LU,546.0
+"Victoria Rise, Clapham Common",10551,10181,51.461376,-0.147804,23.0,Clapham Common,LU,659.0
+"Bancroft Road, Bethnal Green",10483,9654,51.526041,-0.047218,21.0,Stepney Green,LU,450.0
+"Rathbone Street, Fitzrovia",10462,10645,51.518162,-0.135025,16.0,Goodge Street,LU,273.0
+"Shoreditch Court, Haggerston",10432,10421,51.539083,-0.070329,35.0,Haggerston,LO,367.0
+"Ford Road, Old Ford",10346,10052,51.532513,-0.033085,18.0,Mile End,LU,801.0
+"Lee Valley VeloPark, Queen Elizabeth Olympic Park",10340,10299,51.549369,-0.015717,44.0,Stratford International DLR,DLR,698.0
+"Garnet Street, Shadwell",10309,9970,51.508447,-0.055167,24.0,Shadwell LO,LO,340.0
+"Sugden Road, Clapham",10302,9783,51.465123,-0.157788,19.0,Clapham Junction,LO,872.0
+"Farringdon Street, Holborn",10300,10356,51.516785,-0.104947,25.0,Farringdon,LU,379.0
+"Courland Grove, Wandsworth Road",10272,10404,51.472918,-0.132102,40.0,Wandsworth Road,LO,566.0
+"Eel Brook Common, Walham Green",10262,9993,51.476259,-0.193254,24.0,Fulham Broadway,LU,472.0
+"Kensington Olympia Station, Olympia",10260,9641,51.498157,-0.209494,25.0,Kensington (Olympia),LO,69.0
+"Great Percy Street, Clerkenwell",10227,9189,51.528915,-0.11548,23.0,King's Cross St. Pancras,LU,601.0
+"Copper Box Arena, Queen Elizabeth Olympic Park",10221,10266,51.544909,-0.020542,31.0,Hackney Wick,LO,359.0
+"Usk Road, Clapham Junction",10217,10124,51.463489,-0.182126,30.0,Clapham Junction,LO,824.0
+"St. John's Wood Road, St. John's Wood",10196,7479,51.527294,-0.174653,35.0,Warwick Avenue,LU,739.0
+"Scala Street, Fitzrovia",10194,10353,51.519914,-0.136039,21.0,Goodge Street,LU,115.0
+"Belvedere Road 2, South Bank",10136,11258,51.50621,-0.114842,38.0,Waterloo LU,LU,358.0
+"Surrey Lane, Battersea",10114,9566,51.47518,-0.16716,26.0,Imperial Wharf,LO,1086.0
+"Margery Street, Clerkenwell",10079,9489,51.526599,-0.112432,19.0,Angel,LU,852.0
+"Hermitage Court, Wapping",10069,9754,51.504719,-0.063531,16.0,Wapping,LO,533.0
+"Frampton Street, Paddington",10058,8966,51.523353,-0.175116,32.0,Edgware Road (Bak),LU,483.0
+"Lambeth North Station, Waterloo",10045,10422,51.49914,-0.112031,20.0,Lambeth North,LU,18.0
+"Chepstow Villas, Notting Hill",10023,8429,51.512136,-0.201554,26.0,Notting Hill Gate,LU,496.0
+"Saunders Ness Road, Cubitt Town",10010,11043,51.487129,-0.009001,35.0,Island Gardens,DLR,138.0
+"Tallis Street, Temple",9946,10669,51.511891,-0.107349,24.0,Blackfriars LU,LU,303.0
+"Jubilee Street, Stepney",9941,8676,51.515975,-0.053177,28.0,Shadwell LO,LO,581.0
+"Carnegie Street, King's Cross",9929,7997,51.535467,-0.116191,40.0,King's Cross St. Pancras,LU,782.0
+"Lots Road, West Chelsea",9920,9671,51.479573,-0.179038,24.0,Imperial Wharf,LO,579.0
+"Crabtree Lane, Fulham",9884,9727,51.482944,-0.219346,27.0,Barons Court,LU,908.0
+"Antill Road, Mile End",9858,8911,51.528224,-0.037471,30.0,Mile End,LU,464.0
+"Poured Lines, Bankside",9844,10400,51.506692,-0.103137,31.0,Southwark,LU,365.0
+"Beryl Road, Hammersmith",9735,9593,51.488144,-0.222456,26.0,Hammersmith (DIS),LU,469.0
+"Putney Bridge Station, Fulham",9726,9781,51.468814,-0.210279,21.0,Putney Bridge,LU,123.0
+"Finsbury Library , Finsbury",9655,8328,51.526717,-0.104298,29.0,Angel,LU,701.0
+"Whiston Road, Haggerston",9643,8122,51.534464,-0.076341,21.0,Hoxton,LO,346.0
+"Orbel Street, Battersea",9642,9440,51.474535,-0.17021,26.0,Imperial Wharf,LO,876.0
+"Aston Street, Stepney",9626,9222,51.516,-0.038775,26.0,Limehouse DLR,DLR,412.0
+"Charlotte Terrace, Angel",9617,7471,51.536392,-0.112721,25.0,Angel,LU,624.0
+"Argyll Road, Kensington",9608,9561,51.500401,-0.195455,19.0,High Street Kensington,LU,272.0
+"Osiers Road, Wandsworth",9595,9481,51.46067,-0.198735,30.0,East Putney,LU,873.0
+"Ampton Street , Clerkenwell",9580,8503,51.52728,-0.118295,21.0,King's Cross St. Pancras,LU,512.0
+"Park Street, Bankside",9577,9946,51.505974,-0.092754,18.0,London Bridge LU,LU,489.0
+"Bruton Street, Mayfair",9563,9709,51.510736,-0.144165,21.0,Green Park,LU,457.0
+"Charlbert Street, St. John's Wood",9558,8703,51.5343,-0.168074,16.0,St. John's Wood,LU,419.0
+"Rotherhithe Roundabout, Rotherhithe",9555,9546,51.499169,-0.055846,19.0,Rotherhithe,LO,335.0
+"Victoria & Albert Museum, South Kensington",9539,10745,51.495898,-0.173009,30.0,South Kensington,LU,213.0
+"Nevern Place, Earl's Court",9521,8755,51.493343,-0.194757,20.0,Earl's Court,LU,223.0
+"Snow Hill, Farringdon",9491,9650,51.517334,-0.103604,15.0,Farringdon,LU,330.0
+"Arlington Road, Camden Town",9465,9475,51.539957,-0.145246,24.0,Camden Town,LU,193.0
+"The Metropolitan, Portobello",9456,9195,51.520509,-0.200804,18.0,Westbourne Park,LU,54.0
+"Thorndike Close, West Chelsea",9412,8685,51.480898,-0.183853,25.0,Imperial Wharf,LO,666.0
+"Everington Street, Fulham",9389,9285,51.483356,-0.216305,31.0,Barons Court,LU,790.0
+"Selby Street, Whitechapel",9385,9226,51.521905,-0.063386,17.0,Whitechapel,LU,376.0
+"Finnis Street, Bethnal Green",9365,8459,51.524583,-0.058631,19.0,Bethnal Green LU,LU,367.0
+"Christopher Street, Liverpool Street",9358,10677,51.521283,-0.084605,32.0,Moorgate,LU,440.0
+"Claremont Square, Angel",9338,6591,51.531666,-0.109914,18.0,Angel,LU,333.0
+"Torrens Street, Angel",9306,9099,51.532199,-0.10548,19.0,Angel,LU,86.0
+"Wapping High Street, Wapping",9304,8921,51.504904,-0.06797,20.0,Tower Gateway,DLR,756.0
+"Hansard Mews, Holland Park",9294,9581,51.503802,-0.215808,20.0,Shepherd's Bush LU,LU,204.0
+"Breams Buildings, Holborn",9293,9322,51.515937,-0.111778,25.0,Chancery Lane,LU,285.0
+"Goswell Road (City Uni), Finsbury",9288,7785,51.528246,-0.101026,16.0,Angel,LU,612.0
+"Queensbridge Road, Haggerston",9270,8192,51.53385,-0.06992,35.0,Hoxton,LO,478.0
+"St. Chad's Street, King's Cross",9255,9602,51.530059,-0.120973,23.0,King's Cross St. Pancras,LU,203.0
+"Brook Green South, Brook Green",9236,9420,51.494347,-0.215804,33.0,Barons Court,LU,487.0
+"Eaton Square, Belgravia",9227,9209,51.496544,-0.150905,18.0,Victoria LU,LU,484.0
+"Gwendwr Road, West Kensington",9221,8960,51.491026,-0.209121,30.0,West Kensington,LU,226.0
+"Wandsworth Rd, Isley Court, Wandsworth Road",9203,8613,51.469259,-0.141812,30.0,Wandsworth Road,LO,220.0
+"Eversholt Street , Camden Town",9195,8910,51.533005,-0.136792,16.0,Mornington Crescent,LU,202.0
+"Park Lane, Mayfair",9171,9238,51.505426,-0.150817,18.0,Hyde Park Corner,LU,336.0
+"London Zoo,  The Regent's Park",9157,8949,51.535836,-0.156285,32.0,Chalk Farm,LU,941.0
+"Vauxhall Bridge , Pimlico",9147,9190,51.488365,-0.129361,35.0,Pimlico,LU,291.0
+"Sidney Road, Stockwell",9140,9093,51.469202,-0.119022,27.0,Stockwell,LU,422.0
+"Cotton Garden Estate, Kennington",9121,8610,51.490757,-0.106323,24.0,Kennington,LU,249.0
+"Archbishop's Park, Waterloo",9101,9591,51.498241,-0.117495,23.0,Lambeth North,LU,409.0
+"South Park, Sands End",9074,8623,51.467064,-0.193502,28.0,Parsons Green,LU,1024.0
+"Cleveland Gardens, Bayswater",9069,7620,51.515607,-0.183118,16.0,Royal Oak,LU,495.0
+"Rectory Square, Stepney",9065,8498,51.518369,-0.043371,22.0,Stepney Green,LU,490.0
+"Wendon Street, Old Ford",9053,8792,51.536039,-0.026262,18.0,Hackney Wick,LO,839.0
+"Belgrave Square, Belgravia",9025,8866,51.499412,-0.152317,21.0,Hyde Park Corner,LU,353.0
+"Pancras Road, King's Cross",9009,9043,51.534123,-0.129386,16.0,King's Cross St. Pancras,LU,570.0
+"Old Ford Road, Bethnal Green",8995,8271,51.531127,-0.048017,24.0,Cambridge Heath,LO,644.0
+"Devonshire Square, Liverpool Street",8961,9273,51.516468,-0.079684,16.0,Liverpool Street LU,LU,218.0
+"LSBU (Borough Road), Elephant & Castle",8957,9091,51.498744,-0.103132,35.0,Elephant & Castle LU,LU,362.0
+"St. Mark's Road, North Kensington",8910,8902,51.51687,-0.213872,21.0,Ladbroke Grove,LU,257.0
+"Royal Avenue 1, Chelsea",8900,9006,51.489932,-0.162727,10.0,Sloane Square,LU,509.0
+"Kings Gate House, Westminster",8895,9543,51.497698,-0.137598,24.0,St. James's Park,LU,334.0
+"Lower Thames Street, Monument",8888,8965,51.509301,-0.084985,24.0,Cannon Street LU,LU,430.0
+"Sheepcote Lane, Battersea",8884,8761,51.470538,-0.163041,28.0,Clapham Junction,LO,851.0
+"Fore Street Avenue, Guildhall",8786,9734,51.517842,-0.090075,19.0,Moorgate,LU,99.0
+"Newton Street, Covent Garden",8714,9204,51.516128,-0.120909,24.0,Holborn,LU,144.0
+"Houghton Street, Strand",8710,8881,51.51362,-0.116764,15.0,Temple,LU,356.0
+"Victory Place, Walworth",8645,8134,51.492807,-0.091938,24.0,Elephant & Castle LU,LU,697.0
+"Grosvenor Road, Pimlico",8591,7995,51.485357,-0.142207,29.0,Battersea Power Station,LU,652.0
+"Cromer Street, Bloomsbury",8579,8283,51.528279,-0.119558,28.0,King's Cross St. Pancras,LU,374.0
+"Mostyn Grove, Bow",8542,7810,51.530535,-0.025492,46.0,Bow Road,LU,396.0
+"Aberdeen Place, St. John's Wood",8533,7233,51.524826,-0.176268,18.0,Warwick Avenue,LU,501.0
+"Irene Road, Parsons Green",8531,8561,51.473763,-0.19701,23.0,Parsons Green,LU,315.0
+"Princes Square, Bayswater",8521,7248,51.513489,-0.191351,16.0,Bayswater,LU,284.0
+"Rochester Row, Westminster",8493,9072,51.495827,-0.135478,13.0,St. James's Park,LU,435.0
+"Lansdowne Drive, Hackney Central",8464,8348,51.539834,-0.062806,26.0,London Fields,LO,367.0
+"Rainville Road, Hammersmith",8458,8774,51.483732,-0.223852,36.0,Hammersmith (DIS),LU,953.0
+"Princedale Road , Holland Park",8447,8287,51.506465,-0.208486,20.0,Holland Park,LU,153.0
+"Vauxhall Walk, Vauxhall",8440,8525,51.488124,-0.120903,27.0,Vauxhall LU,LU,334.0
+"St. John Street, Finsbury",8318,6936,51.52836,-0.104724,18.0,Angel,LU,516.0
+"Westfield Southern Terrace ,Shepherd's Bush",8299,9136,51.506256,-0.218337,29.0,Shepherd's Bush LU,LU,192.0
+"Bedford Way, Bloomsbury",8233,7884,51.523673,-0.128377,23.0,Russell Square,LU,272.0
+"Hollybush Gardens, Bethnal Green",8226,7908,51.527607,-0.057133,32.0,Bethnal Green LU,LU,129.0
+"Chelsea Green, Chelsea",8214,8451,51.490664,-0.166485,15.0,South Kensington,LU,639.0
+"Eaton Square (South), Belgravia",8212,8699,51.494561,-0.153933,31.0,Sloane Square,LU,302.0
+"Abingdon Villas, Kensington",8205,8048,51.497387,-0.197245,17.0,High Street Kensington,LU,541.0
+"London Zoo Car Park, The Regent's Park",8190,7821,51.536922,-0.150181,36.0,Camden Town,LU,633.0
+"All Saints' Road, Portobello",8154,7813,51.519042,-0.204764,22.0,Westbourne Park,LU,345.0
+"Hardwick Street, Clerkenwell",8130,5471,51.527842,-0.108068,30.0,Angel,LU,595.0
+"Northdown Street, King's Cross",8130,7977,51.531066,-0.11934,21.0,King's Cross St. Pancras,LU,325.0
+"Drummond Street , Euston",7988,5746,51.527326,-0.136052,28.0,Euston Square,LU,212.0
+"River Street , Clerkenwell",7977,5273,51.529163,-0.10997,19.0,Angel,LU,521.0
+"Waterloo Bridge, South Bank",7976,8042,51.505354,-0.113656,15.0,Waterloo LU,LU,247.0
+"Clifford Street, Mayfair",7949,9716,51.510662,-0.142345,17.0,Green Park,LU,434.0
+"Clifton Street, Shoreditch",7930,8078,51.523196,-0.083067,24.0,Old Street,LU,412.0
+"Red Lion Square, Holborn",7930,7585,51.519435,-0.119123,16.0,Holborn,LU,250.0
+"Chrisp Street Market, Poplar",7894,7925,51.5112,-0.014438,18.0,All Saints,DLR,149.0
+"Holland Park, Kensington",7890,6087,51.502319,-0.200742,30.0,High Street Kensington,LU,659.0
+"Euston Square Gardens, Euston",7889,7904,51.527068,-0.131861,30.0,Euston LU,LU,203.0
+"Southwark Street, Bankside",7884,8166,51.505409,-0.098341,23.0,Southwark,LU,544.0
+"Westbourne Park Road, Portobello",7867,7269,51.51787,-0.201005,23.0,Westbourne Park,LU,347.0
+"Sail Street, Vauxhall",7820,7750,51.495656,-0.114605,24.0,Lambeth North,LU,433.0
+"Wood Street, Guildhall",7780,8712,51.517008,-0.093885,17.0,St. Paul's,LU,351.0
+"King Edward Street, St Pauls",7774,7963,51.51601,-0.0985,20.0,St. Paul's,LU,146.0
+"Grafton Street, Mayfair",7752,9935,51.509992,-0.143495,18.0,Green Park,LU,366.0
+"Harford Street, Mile End",7709,7039,51.521564,-0.039264,23.0,Stepney Green,LU,564.0
+"Stanhope Gate, Mayfair",7706,7902,51.506864,-0.150666,21.0,Hyde Park Corner,LU,492.0
+"Little Brook Green, Brook Green",7683,8210,51.496664,-0.223868,33.0,Hammersmith (H&C),LU,373.0
+"Bromley High Street, Bow",7622,7485,51.528828,-0.013258,24.0,Bromley-by-Bow,LU,457.0
+"Felsham Road, Putney",7510,7676,51.464786,-0.215618,18.0,Putney Bridge,LU,552.0
+"Hoxton Street, Hoxton",7498,6320,51.52959,-0.0801,27.0,Hoxton,LO,371.0
+"Blythe Road West, Shepherd's Bush",7474,7336,51.49968,-0.221791,21.0,Goldhawk Road,LU,471.0
+"Manbre Road, Hammersmith",7458,7279,51.485743,-0.223616,28.0,Hammersmith (DIS),LU,729.0
+"Devons Road, Bow",7387,7368,51.52512,-0.015578,39.0,Bromley-by-Bow,LU,271.0
+"Disraeli Road, Putney",7346,7760,51.46161,-0.216145,33.0,East Putney,LU,468.0
+"Stanley Grove, Battersea",7300,6804,51.470475,-0.15213,24.0,Wandsworth Road,LO,907.0
+"Aylward Street, Stepney",7291,6746,51.51563,-0.049067,22.0,Stepney Green,LU,717.0
+"Longford Street, The Regent's Park",7278,5999,51.525595,-0.144083,21.0,Great Portland Street,LU,201.0
+"Vicarage Gate, Kensington",7248,6715,51.504723,-0.192538,18.0,High Street Kensington,LU,449.0
+"Fore Street, Guildhall",7222,8743,51.518093,-0.091401,25.0,Moorgate,LU,169.0
+"Neville Gill Close, Wandsworth",7213,7747,51.454752,-0.195197,32.0,East Putney,LU,1187.0
+"Smugglers Way, Wandsworth",7153,7132,51.461083,-0.191722,27.0,East Putney,LU,1358.0
+"Broadley Terrace, Marylebone",7131,6114,51.524561,-0.165668,18.0,Marylebone LU,LU,284.0
+"Farm Street, Mayfair",7117,8097,51.509351,-0.147449,15.0,Green Park,LU,449.0
+"Seymour Place, Marylebone",7099,6918,51.520331,-0.163667,29.0,Marylebone LU,LU,230.0
+"Canton Street, Poplar",7096,7084,51.511811,-0.025626,23.0,Westferry,DLR,246.0
+"Lightermans Road, Millwall",7089,7253,51.499041,-0.020157,31.0,South Quay,DLR,234.0
+"Culvert Road, Battersea",6849,6717,51.471095,-0.15785,27.0,Clapham Junction,LO,1142.0
+"East India DLR, Blackwall",6846,7725,51.509474,-0.002275,51.0,East India,DLR,88.0
+"Clapham Road, Lingham Street, Stockwell",6840,6754,51.471433,-0.12367,30.0,Stockwell,LU,99.0
+"The Guildhall, Guildhall",6803,7836,51.515735,-0.09308,17.0,St. Paul's,LU,326.0
+"Sancroft Street, Vauxhall",6789,6543,51.489479,-0.115156,24.0,Kennington,LU,704.0
+"Blythe Road, Olympia",6727,6501,51.496927,-0.2135,24.0,Kensington (Olympia),LO,241.0
+"New Spring Gardens Walk, Vauxhall",6697,9324,51.487807,-0.122759,33.0,Vauxhall LU,LU,242.0
+"Ranelagh Gardens, Fulham",6656,6742,51.467601,-0.206827,29.0,Putney Bridge,LU,178.0
+"Plough Terrace, Clapham Junction",6636,6262,51.462305,-0.175407,31.0,Clapham Junction,LO,421.0
+"South Audley Street, Mayfair",6632,7061,51.50923,-0.151289,15.0,Bond Street,LU,521.0
+"Kensington Town Hall, Kensington",6606,6509,51.501945,-0.194392,18.0,High Street Kensington,LU,238.0
+"Marloes Road, Kensington",6604,6174,51.496481,-0.192404,15.0,High Street Kensington,LU,476.0
+"Mallory Street, Marylebone",6596,5212,51.525051,-0.166304,20.0,Marylebone LU,LU,354.0
+"Merchant Street, Bow",6544,6135,51.526578,-0.027581,27.0,Bow Road,LU,229.0
+"Cleaver Street, Kennington",6533,6442,51.488105,-0.110121,17.0,Kennington,LU,355.0
+"Vincent Square, Westminster",6512,6557,51.493985,-0.136928,19.0,Victoria LU,LU,555.0
+"Clarence Walk, Stockwell",6482,5904,51.470732,-0.126994,28.0,Stockwell,LU,328.0
+"Bishop's Bridge Road East, Bayswater",6466,5442,51.5171,-0.18377,20.0,Royal Oak,LU,374.0
+"Elysium Place, Fulham",6459,6130,51.471079,-0.207842,21.0,Putney Bridge,LU,373.0
+"Clarges Street, Mayfair",6451,7330,51.507326,-0.145827,16.0,Green Park,LU,240.0
+"Calshot Street , King's Cross",6311,5552,51.53136,-0.117069,24.0,King's Cross St. Pancras,LU,485.0
+"Lisson Grove, St. John's Wood",6269,5221,51.526448,-0.17219,18.0,Edgware Road (Bak),LU,698.0
+"Teversham Lane, Stockwell",6251,6815,51.476149,-0.123258,39.0,Stockwell,LU,445.0
+"Addison Road, Holland Park",6216,6036,51.504199,-0.210941,26.0,Holland Park,LU,447.0
+"Michael Road, Walham Green",6155,6286,51.477276,-0.18921,37.0,Imperial Wharf,LO,512.0
+"Pennington Street, Wapping",6130,5679,51.508622,-0.065006,45.0,Shadwell LO,LO,634.0
+"Southern Grove, Bow",6116,5710,51.523538,-0.030556,17.0,Mile End,LU,245.0
+"Buxton Street 1, Shoreditch",6107,5799,51.521776,-0.068856,41.0,Shoreditch High Street,LO,600.0
+"Dickens Square, Borough",6036,6516,51.496791,-0.093913,32.0,Borough,LU,474.0
+"Millennium Hotel, Mayfair",6015,6499,51.510919,-0.151126,27.0,Bond Street,LU,337.0
+"Hawley Crescent, Camden Town",6010,5964,51.541007,-0.14326,22.0,Camden Town,LU,128.0
+"New North Road 2, Hoxton",6001,5123,51.53114,-0.086016,22.0,Old Street,LU,628.0
+"Crinan Street, King's Cross",5976,6026,51.534474,-0.122203,20.0,King's Cross St. Pancras,LU,477.0
+"Prince Consort Road, Knightsbridge",5960,6641,51.499806,-0.176415,18.0,South Kensington,LU,661.0
+"Alma Road, Wandsworth",5895,5122,51.457991,-0.184806,28.0,Clapham Junction,LO,1229.0
+"Clarkson Street, Bethnal Green",5892,5389,51.528692,-0.059091,31.0,Bethnal Green LU,LU,305.0
+"Russell Gardens, Olympia",5888,5548,51.500088,-0.211316,24.0,Kensington (Olympia),LO,254.0
+"Stewart's Road, Wandsworth Road",5790,5399,51.473116,-0.137235,28.0,Wandsworth Road,LO,345.0
+"Carey Street, Holborn",5758,5864,51.51501,-0.112753,16.0,Chancery Lane,LU,391.0
+"Broomhouse Lane, Parsons Green",5704,5616,51.468418,-0.199135,29.0,Putney Bridge,LU,711.0
+"St John's Crescent, Brixton",5645,6203,51.466232,-0.113179,25.0,Brixton LU,LU,400.0
+"Clarendon Road, Avondale",5640,5454,51.51323,-0.211593,24.0,Latimer Road,LU,414.0
+"Campden Hill Road, Notting Hill",5633,4637,51.506584,-0.199004,17.0,Notting Hill Gate,LU,377.0
+"Heath Road, Battersea",5604,4995,51.468669,-0.146544,27.0,Wandsworth Road,LO,548.0
+"Arundel Street, Temple",5596,5894,51.511726,-0.113855,18.0,Temple,LU,77.0
+"Penfold Street, Marylebone",5563,4829,51.522892,-0.171681,15.0,Edgware Road (Bak),LU,307.0
+"Wynne Road, Stockwell",5563,5513,51.469217,-0.112686,25.0,Brixton LU,LU,732.0
+"Abbotsbury Road, Holland Park",5519,4840,51.501391,-0.205991,24.0,Kensington (Olympia),LO,495.0
+"Risinghill Street, Angel",5492,4467,51.533319,-0.111781,25.0,Angel,LU,431.0
+"Jubilee Crescent, Cubitt Town",5474,5449,51.493381,-0.007542,54.0,Crossharbour,DLR,554.0
+"Greenberry Street, St.John's Wood",5465,3785,51.53256,-0.16862,26.0,St. John's Wood,LU,455.0
+"Pindar Street, Liverpool Street",5445,6326,51.520955,-0.083493,24.0,Liverpool Street LU,LU,383.0
+"Kingsway, Covent Garden",5429,5559,51.514409,-0.118478,16.0,Holborn,LU,328.0
+"Greycoat Street , Westminster",5389,5562,51.494591,-0.134234,17.0,St. James's Park,LU,559.0
+"Belford House, Haggerston",5371,5191,51.536654,-0.07023,39.0,Haggerston,LO,434.0
+"Christian Street, Whitechapel",5341,4884,51.513074,-0.064094,34.0,Shadwell LO,LO,534.0
+"Peterborough Road, Sands End",5312,5151,51.46904,-0.196274,20.0,Parsons Green,LU,739.0
+"Grenfell Road, Avondale",5267,5164,51.5129,-0.214762,24.0,Latimer Road,LU,221.0
+"Hurlingham Park, Parsons Green",5255,5170,51.470131,-0.20464,20.0,Putney Bridge,LU,413.0
+"Naval Row, Blackwall",5254,5440,51.508981,-0.00699,21.0,Blackwall,DLR,129.0
+"Alpha Grove, Millwall",5225,5336,51.497304,-0.022793,23.0,South Quay,DLR,497.0
+"Here East North, Queen Elizabeth Olympic Park",5220,5326,51.548731,-0.022606,28.0,Hackney Wick,LO,604.0
+"Fawcett Close, Battersea",5132,4997,51.469161,-0.174485,30.0,Clapham Junction,LO,606.0
+"Stainsby Road , Poplar",5132,4905,51.515427,-0.023565,24.0,Westferry,DLR,671.0
+"Walmer Road, Avondale",5115,4920,51.510101,-0.211358,24.0,Holland Park,LU,467.0
+"Upper Grosvenor Street, Mayfair",5084,4771,51.51013,-0.155757,18.0,Marble Arch,LU,469.0
+"Orsett Terrace, Bayswater",5064,4303,51.517932,-0.183716,15.0,Royal Oak,LU,356.0
+"Putney Rail Station, Putney",5045,4998,51.460717,-0.216526,20.0,East Putney,LU,434.0
+"Nantes Close, Wandsworth",5003,4870,51.46193,-0.180791,22.0,Clapham Junction,LO,775.0
+"Freston Road, Avondale",4934,5028,51.512981,-0.219486,23.0,Latimer Road,LU,177.0
+"Upper Richmond Road, Putney",4895,4855,51.459715,-0.212145,25.0,East Putney,LU,122.0
+"Ilchester Place, Kensington",4858,3822,51.500743,-0.202759,24.0,Kensington (Olympia),LO,616.0
+"Heron Quays DLR, Canary Wharf",4849,5015,51.502661,-0.021596,27.0,Heron Quays,DLR,84.0
+"St Martins Close, Camden Town",4817,4383,51.538792,-0.138535,18.0,Camden Town,LU,301.0
+"Stonecutter Street, Holborn",4765,6043,51.515809,-0.10527,21.0,Farringdon,LU,489.0
+"Spindrift Avenue, Millwall",4733,5050,51.49109,-0.018716,36.0,Mudchute,DLR,261.0
+"Holden Street, Battersea",4715,4441,51.46879,-0.15823,20.0,Clapham Junction,LO,971.0
+"Paddington Green, Paddington",4699,3983,51.520205,-0.174593,20.0,Edgware Road (Bak),LU,308.0
+"Queensdale Road, Shepherd's Bush",4679,5007,51.50659,-0.216104,28.0,Shepherd's Bush LU,LU,283.0
+"Cantrell Road, Bow",4673,4288,51.521564,-0.022694,24.0,Devons Road,DLR,333.0
+"Montserrat Road , Putney",4626,5181,51.463211,-0.21555,23.0,East Putney,LU,576.0
+"Geraldine Street, Elephant & Castle",4603,4442,51.496127,-0.106,17.0,Elephant & Castle LU,LU,366.0
+"Lancaster Drive, Blackwall",4553,4554,51.503143,-0.008428,27.0,Blackwall,DLR,528.0
+"Killick Street, King's Cross",4517,4221,51.5338,-0.118677,22.0,King's Cross St. Pancras,LU,529.0
+"Ingrave Street, Clapham Junction",4488,4608,51.467454,-0.172293,30.0,Clapham Junction,LO,370.0
+"Limburg Road, Clapham Junction",4445,4496,51.461923,-0.165297,21.0,Clapham Junction,LO,441.0
+"Putney Bridge Road, East Putney",4405,4331,51.461999,-0.20624,29.0,East Putney,LU,479.0
+"Ladbroke Grove Central, Ladbroke Grove",4201,2801,51.511624,-0.205921,21.0,Holland Park,LU,500.0
+"Grosvenor Crescent, Belgravia",4179,4232,51.501352,-0.153194,18.0,Hyde Park Corner,LU,146.0
+"Evesham Street, Avondale",4156,4173,51.511486,-0.21819,20.0,Latimer Road,LU,279.0
+"Preston's Road, Cubitt Town",4155,4207,51.499286,-0.009152,26.0,Crossharbour,DLR,547.0
+"Napier Avenue, Millwall",4110,4164,51.487679,-0.021582,20.0,Mudchute,DLR,606.0
+"Northfields, Wandsworth",3955,3925,51.460951,-0.200667,28.0,East Putney,LU,752.0
+"Denyer Street, Knightsbridge",3924,4072,51.493583,-0.165101,30.0,Sloane Square,LU,612.0
+"St. Mary & St. Michael Church, Stepney",3923,3282,51.51417,-0.052099,25.0,Shadwell LO,LO,462.0
+"Gower Place , Euston",3912,3870,51.525227,-0.135188,17.0,Euston Square,LU,29.0
+"Morie Street, Wandsworth",3888,4552,51.459953,-0.190184,28.0,East Putney,LU,1447.0
+"Lansdowne Walk, Ladbroke Grove",3883,3053,51.509591,-0.204666,21.0,Holland Park,LU,302.0
+"Newby Place, Poplar",3870,4033,51.508896,-0.012413,18.0,All Saints,DLR,176.0
+"Spencer Park, Wandsworth Common",3808,3750,51.45787,-0.174691,25.0,Clapham Junction,LO,783.0
+"Aberfeldy Street, Poplar",3804,3808,51.513548,-0.005659,16.0,East India,DLR,587.0
+"Burgess Park Albany Road, Walworth",3753,3799,51.48224,-0.094284,30.0,Kennington,LU,1033.0
+"East Ferry Road, Cubitt Town",3692,3837,51.49447,-0.014409,17.0,Crossharbour,DLR,141.0
+"Rifle Place, Avondale",3602,3622,51.509224,-0.216016,21.0,Latimer Road,LU,536.0
+"Langdon Park, Poplar",3432,3451,51.51549,-0.013475,24.0,Langdon Park,DLR,396.0
+"Mexfield Road, East Putney",3426,3274,51.45682,-0.202802,18.0,East Putney,LU,612.0
+"Westminster Bridge Road, Elephant & Castle",3343,3136,51.498386,-0.107913,26.0,Lambeth North,LU,279.0
+"Spanish Road, Clapham Junction",3323,2700,51.459225,-0.180884,30.0,Clapham Junction,LO,929.0
+"St. John's Park, Cubitt Town",3190,3212,51.496454,-0.009506,30.0,Crossharbour,DLR,362.0
+"Stebondale Street, Cubitt Town",3127,3691,51.489096,-0.009205,29.0,Island Gardens,DLR,156.0
+"South Quay East, Canary Wharf",2968,3122,51.50196,-0.016251,36.0,South Quay,DLR,196.0
+"Esmond Street, Putney",2905,3146,51.462312,-0.211468,30.0,East Putney,LU,383.0
+"Colombo Street, Southwark",2899,2917,51.505459,-0.105692,14.0,Southwark,LU,179.0
+"Oxford Road, Putney",2882,3142,51.460792,-0.212607,20.0,East Putney,LU,240.0
+"Here East South, Queen Elizabeth Olympic Park",2824,2993,51.546532,-0.020597,20.0,Hackney Wick,LO,462.0
+"Santos Road, Wandsworth",2805,2593,51.457059,-0.200806,30.0,East Putney,LU,735.0
+"Lord's, St. John's Wood",2737,1973,51.529121,-0.171185,24.0,St. John's Wood,LU,668.0
+"Sirdar Road, Avondale",2730,2528,51.510928,-0.214594,20.0,Latimer Road,LU,391.0
+"Mudchute DLR, Cubitt Town",2699,2996,51.490645,-0.014582,31.0,Mudchute,DLR,71.0
+"Millharbour, Millwall",2656,2715,51.496137,-0.019355,19.0,Crossharbour,DLR,332.0
+"Malmesbury Road, Bow",2393,2081,51.529452,-0.027616,21.0,Bow Road,LU,350.0
+"Teviot Street, Poplar",2238,2245,51.518811,-0.011662,33.0,Langdon Park,DLR,246.0
+"Portugal Street, Holborn",2206,2249,51.514943,-0.116146,16.0,Holborn,LU,361.0
+"Brandon Street, Walworth",2109,2121,51.489102,-0.091548,22.0,Kennington,LU,938.0
+"Thurtle Road, Haggerston",1891,1325,51.534776,-0.071881,22.0,Hoxton,LO,455.0
+"Colet Gardens, Hammersmith",1831,2009,51.491093,-0.216493,30.0,Barons Court,LU,233.0
+"Westfield Library Corner, Shepherd's Bush",1388,1631,51.506093,-0.224223,27.0,Shepherd's Bush Market,LU,221.0
+"Clements Road, Bermondsey",922,924,51.4954,-0.061698,23.0,Bermondsey,LU,338.0
+"South Bermondsey Station, Bermondsey",586,623,51.488067,-0.057774,24.0,Surrey Quays,LO,915.0
+"Harris Academy, Bermondsey",583,598,51.492668,-0.07235,18.0,Bermondsey,LU,809.0
+"The Blue, Bermondsey",439,479,51.492221,-0.062513,22.0,Bermondsey,LU,651.0
+"Chicheley Street, South Bank",252,288,51.502698,-0.116747,24.0,Waterloo LU,LU,247.0
+"Crimscott Street, Bermondsey",125,111,51.495598,-0.078893,19.0,Bermondsey,LU,1042.0
