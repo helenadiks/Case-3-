@@ -3,6 +3,7 @@
 Streamlit-dashboard voor case 3 (Introduction to Data Science en Visual Analytics, minor Data Science).
 
 **Onderzoeksvraag:** wanneer en waar pakken Londenaren de deelfiets, en vervangt die de metro of vult hij hem aan?
+https://case3groep4.streamlit.app
 
 ## Wat er in het dashboard staat
 
